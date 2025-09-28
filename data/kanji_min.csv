@@ -1,0 +1,1927 @@
+level;char;on;kun;meaning
+N5;一;イチ,イツ;ひと,ひと.つ;un
+N5;七;シチ;なな,なな.つ,なの;sept
+N5;万;マン,バン;よろず;dix-mille
+N5;三;サン,ゾウ;み,み.つ,みっ.つ;trois
+N5;上;ジョウ,ショウ,シャ ン;うえ,あ.げる,のぼ.る;au-dessus, haut, monter, donner
+N5;下;カ,ゲ;した,さ.げる,くだ.る;au-dessous, descendre, bas, donner, inférieur
+N4;不;フ,ブ -;;préfixe de négation, non
+N3;与;ヨ;あた.える,あずか .る,くみ.する,ともに;donner, décerner, offrir, conférer, don
+N4;世;セイ,セ;よ,さんじゅう;monde, époque, génération
+N3;両;リョウ;てる,ふたつ;deux, les deux, paire, compteur des wagons
+N5;中;チュウ;なか,うち,あた.る;dans, dedans, à l'intérieur, milieu, centre, moyenne
+N4;主;シュ,ス;ぬし,おも;seigneur, maître, mari
+N4;乗;ジョウ;の.る;monter (dans un véhicule), embarquer
+N5;九;キュウ,ク;ここの,ここの .つ;neuf
+N3;予;ヨ;あらかじ .め;auparavant, au préalable
+N3;争;ソウ;あらそ .う;se quereller, se disputer, se battre
+N4;事;ジ;こと;fait, chose abstraite, affaire
+N5;二;ニ,ジ;ふた,ふた.つ,ふたた . び;deux
+N3;互;ゴ;たが.い,かたみ .に;mutuel, réciproque
+N5;五;ゴ;いつ,いつ.つ;cinq
+N3;亡;ボウ,モウ;な.い,ほろ.びる;décédé, mort, mourir
+N3;交;コウ;まじ.る;intersection, se mélanger
+N4;京;キョウ,ケイ,キン;みやこ;capitale, 10^16
+N5;人;ジン,ニン;ひと;être humain, personne
+N5;今;コン;いま;maintenant
+N4;仕;シ;つか.える;servir, faire
+N3;他;タ;ほか;autre
+N3;付;フ;つ.ける;coller, attacher, fixer
+N4;代;ダイ,タイ;かわ.り;génération, période, substitution, prix
+N4;以;イ;もっ.て;par le moyen de, en vue de, comparé à
+N3;任;ニン;まか.せる,まか.す;responsabilité, confier à
+N5;休;キュウ;やす.む,やす.める;se reposer, repos
+N5;会;カイ;あ.う;réunion, rencontre, parti
+N3;伝;デン,テン;つた.わる,つた.える;transmettre, communiquer, légende, tradition
+N3;似;ジ;に.る;ressembler à, imiter
+N3;位;イ;くらい,ぐらい;rang, position, à peu près
+N4;低;テイ;ひく.い,ひく.める;bas, abaisser
+N4;住;ヂュウ;す.む;résider, habiter
+N4;体;タイ;からだ;corps
+N5;何;カ;なに,なん;quoi, que
+N3;余;ヨ;あま.る,あま.り;dépasser, surplus
+N4;作;サク,サ;つく.る;fabriquer, produire, réaliser
+N4;使;シ;つか.う;utiliser
+N3;例;レイ;たと.える;exemple, précédent
+N3;供;キョウ,ク,クウ;そな.える,とも;accompagner, offrir, suffixe du pluriel
+N4;便;ベン,ビン;たよ.り;commodité, lettre, courrier
+N3;係;ケイ;かか.る;service, en charge de, devoir
+N3;信;シン -;;croyance, confiance en soi, croire
+N3;倒;トウ;たお.れる,たお.す;se renverser, s'écrouler, s'effondrer
+N3;候;コウ;そうろう;temps (météorologique), climat
+N4;借;シャク;か.りる;emprunter, louer
+N3;値;チ;ね,あたい;prix, coût, valeur
+N3;偉;イ;えら.い;remarquable, grandiose, célèbre
+N3;側;ソク;かわ,そば;côté, flanc
+N3;偶;グウ;たま;par hasard, nombre pair, couple
+N3;備;ビ;そな.える;préparation, être équipé de, approvisionné
+N4;働;ドウ,リュク,リキ,ロク;はたら .く;travailler
+N3;優;ユウ,ウ;やさ.しい,すぐ.れる,まさ.る;gentillesse, tendresse, surpasser, acteur
+N4;元;ゲン,ガン;もと;origine, commencement
+N4;兄;ケイ,キョウ;あに;frère ainé, grand -frère
+N5;先;セン;さき,ま.ず;avant, devant, précédent
+N5;入;ニュウ,ジュ;い.る,い.れる,はい.る;entrer, insérer
+N3;全;ゼン;すべ.て;totalité, tout, en entier
+N5;八;ハチ;や,や.つ,やっ.つ,よう;huit
+N5;六;ロク,リク;む;six
+N3;共;キョウ;とも;marque du pluriel, ensemble, les deux
+N3;具;グ;そな.える,つぶさ .に;ustensile, outil, meuble
+N3;内;ナイ,ダイ;うち;intérieur, dedans, maison
+N5;円;エン;まる.い;cercle, yen, rond
+N4;写;シャ;うつ.す;copier, reproduire
+N4;冬;トウ;ふゆ;hiver
+N3;冷;レイ;つめ.たい,ひ.える;glacé, froid (au contact), refroidir
+N3;処;ショ;ところ;vierge, sentence, lieu
+N5;出;シュツ,スイ;で.る,だ.す,い.でる;sortir, quitter, présence
+N5;分;ブン,フン;わ.ける,わ.かる;comprendre, minute, degré, taux
+N4;切;セツ,サイ;き.る;couper, trancher
+N3;列;レツ -;;rang, file, queue
+N3;初;ショ;はじ.め,はじ.めて;première fois, commencement, début
+N3;判;ハン,バン;わか.る;décision, jugement, sceau, tampon
+N4;別;ベツ;わか.れる,わ.ける;se séparer, séparer, pas en particulier
+N3;利;リ;き.く;bénéfice, profit, avantage
+N3;到;トウ;いた.る;arriver à (une décision), atteindre (une étape), aboutir à
+N3;制;セイ -;;système, régime, organisation
+N3;刻;コク;きざ.む;découper, hacher, graver
+N5;前;ゼン;まえ;avant, devant
+N3;割;カツ;わ.る,わ.れる;diviser, séparer, se fendre, pourcentage, proportion
+N4;力;リョク,リキ,リイ;ちから;force, puissance
+N3;加;カ;くわ.える;ajouter, accroître, augmentation
+N3;助;ジョ;たす.ける,すけ;secourir, aider, être aidé
+N3;努;ド;つと.める;s'efforcer de, faire des efforts, s'appliquer
+N3;労;ロウ;いたわ .る,つか.れる,ねぎら .う;labeur, effort, souci
+N4;勉;ベン;つと.める;exercice, travail
+N3;務;ム;つと.める;travailler, tâche, travail
+N3;勝;ショウ;か.つ;gagner, surpasser, victoire
+N3;勤;キン,ゴン;つと.める;travailler, application, effort
+N3;化;カ,ケ;ば.ける;transformer, influence
+N5;北;ホク;きた;Nord
+N4;区;ク -;;arrondissement, district
+N4;医;イ;い.やす;médecin, médecine
+N5;十;ジュウ;とお,と;dix
+N5;千;セン;ち;mille
+N5;午;ゴ;うま;midi
+N5;半;ハン;なか.ば;moitié, milieu, demi
+N5;南;ナン;みなみ;Sud
+N3;単;タン;ひとえ;simple, unique, seulement
+N3;危;キ;あぶ.ない;dangereux, risqué, crainte
+N3;原;ゲン;はら;prairie, pré, original, primitif
+N4;去;キョ,コ;さ.る;passé, quitter
+N3;参;サン;まい.る;aller, venir
+N5;友;ユウ;とも;ami
+N3;反;ハン;そ.る,そ.らす;anti, opposé, courber, se courber
+N3;収;シュウ;おさ.める;obtenir, récolter, réserve
+N3;取;シュ;と.る;prendre, saisir
+N3;受;ジュ;う.ける;recevoir, passer (un examen), répondre (au téléphone)
+N5;口;コウ,ク;くち;bouche
+N5;古;コ;ふる.い;vieux, ancien
+N4;台;ダイ,タイ;うてな,われ;support, socle
+N5;右;ウ,ユウ;みぎ;droite
+N3;号;ゴウ;さけ.ぶ,よびな;numéro, titre
+N4;合;ゴウ,ガ;あ.う;correspondre, convenir
+N4;同;ドウ;おな.じ;identique, égal, similaire
+N5;名;メイ,ミョウ;な;nom, célèbre, fameux
+N3;向;コウ;む.こう,む.く;se diriger vers, de l'autre côté
+N3;君;クン;きみ;toi, tu, suffixe de nom ( -kun)
+N3;吸;キュウ;す.う;aspirer, inhaler, absorber
+N3;吹;スイ;ふ.く;souffler, respirer
+N3;告;コク;つ.げる;informer, annoncer, révélation
+N4;味;ミ;あじ,あじ.わう;saveur, goût, apprécier la saveur de
+N3;呼;コ;よ.ぶ;appeler, inviter
+N3;命;メイ;いのち;ordre, commandement, destin, vie
+N3;和;ワ;やわ.らぐ,なご.やか;harmonie, paix, serein adoucir
+N4;品;ヒン;しな;marchandise, article, compteur de plats
+N4;員;イン -;;employé, membre
+N3;商;ショウ;あきな .う;commerce, vente
+N4;問;モン;と.う;question, demander, interroger
+N3;喜;キ;よろこ .ぶ;se réjouir, être content
+N5;四;シ;よ,よん;quatre
+N4;回;カイ;まわ.る;tourner, tour
+N3;因;イン;よ.る;cause, facteur, dépendre de
+N3;困;コン;こま.る;être embarrassé, gêné
+N4;図;ズ,ト;はか.る;carte, dessin, plan
+N5;国;コク;くに;pays
+N3;園;エン;その;parc, jardin
+N5;土;ド,ト;つち;sol, terre, terrain
+N3;在;ザイ;あ.る;exister, être
+N4;地;チ,ジ;どま;sol, terre, terrain
+N4;堂;ドウ -;;temple, sanctuaire, salle
+N3;報;ホウ;むく.いる;rapport, information, faire savoir
+N4;場;ジョウ,チョウ;ば;lieu, place, aire
+N3;増;ゾウ;ふ.える,ま.す;augmenter, croître, accroissement
+N4;声;セイ,ショウ;こえ;voix
+N4;売;バイ;う.る;vendre
+N3;変;ヘン;か.わる;étrange, bizarre, changer
+N4;夏;カ;なつ;été
+N4;夕;セキ;ゆう;soir, soirée
+N5;外;ガイ;そと,はず.れ;extérieur, dehors
+N4;夜;ヤ;よる;soir, soirée
+N3;夢;ム,ボウ;ゆめ,ゆめ.みる;rêve, illusion
+N5;大;ダイ,タイ;おお.きい;grand
+N5;天;テン;あまつ,あめ;cieux, ciel, impérial
+N4;太;タイ;ふと.い,ふと.る;gros, grossir
+N3;夫;フ;おっと;mari, époux, homme
+N3;失;シツ;うしな .う;erreur, faute, perdre (un objet)
+N5;女;ジョ,ニョ,ニョウ;おんな,め;femme, féminin
+N4;好;コウ;この.む,す.く,よ.い,い.い;bien aimé, apprécié, agréable
+N4;妹;マイ;いもうと;sœur cadette, petite -sœur
+N3;妻;サイ;つま;épouse, femme
+N4;姉;シ;あね;sœur ainée, grande -sœur
+N4;始;シ;はじ.める;commencer, débuter
+N3;娘;ジョウ;むすめ,こ;fille
+N3;婚;コン -;;mariage
+N3;婦;フ;よめ;femme mariée, épouse
+N5;子;シ,ス,ツ;こ;enfant
+N4;字;ジ;あざ,あざな,な;caractère, lettre, mot, hameau
+N3;存;ソン,ゾン -;;être conscient de, croire
+N5;学;ガク;まな.ぶ;étudier, apprendre, science
+N3;宅;タク -;;maison, résidence
+N3;守;シュ,ス;まも.る,まも.り;protéger, défendre, gardien
+N5;安;アン;やす.い;bon marché, peu cher, sûr, tranquille
+N3;完;カン -;;parfait, totalité, achèvement
+N3;官;カン -;;gouvernement, fonctionnaire
+N3;定;テイ,ジョウ;さだ.める;établir, fixer, décider
+N3;実;ジツ,シツ;み,みの.る,まこと;réalité, réel, véritable, porter ses fruits
+N3;客;キャク,カク -;;client, hôte
+N4;室;シツ;むろ;pièce, appartement, chambre
+N3;害;ガイ -;;mal, blessure
+N4;家;カ;いえ,や,うち;maison
+N3;容;ヨウ;い.れる;forme (état de santé), apparence, contenir
+N3;寄;キ;よ.る;rendre visite, approcher, collecter, envoyer
+N3;富;フ,フウ;と.む,とみ;richesse, opulence, devenir riche
+N4;寒;カン;さむ.い;froid (météorologique)
+N3;寝;シン;ね.る;dormir, se reposer
+N3;察;サツ -;;supposer, présumer, deviner, juger
+N3;対;タイ;あいて,そろ.い,つれ あ.い;opposé, anti, opposition
+N5;小;ショウ;ちい.さい,こ;petit
+N5;少;ショウ;すく.ない,すこ.し;un peu, peu de
+N3;局;キョク;つぼね;bureau, département
+N3;居;キョ,コ;い.る,お.る;se trouver, être, exister
+N4;屋;オク;や;maison, boutique, toît
+N5;山;サン,セン;やま;montagne
+N5;川;セン;かわ;rivière, fleuve
+N4;工;コウ;もく;industrie, construction, fabrication
+N5;左;サ,シャ;ひだり;gauche
+N3;差;サ;さ.す,さ.し;différence, reste, désigner
+N4;市;シ;いち;marché, ville
+N3;師;シ,ス;もろもろ,なら.う;expert, professeur, maître
+N3;席;セキ;むしろ;siège
+N4;帰;キ;かえ.る;retourner (chez soi), aboutir à
+N3;常;ジョウ;つね;habituel, normal, ordinaire
+N3;平;ヘイ;ヒョウ;ひら paix, calme, plat
+N5;年;ネン;とし;année, compteur pour les années
+N3;幸;コウ;しあわ .せ;bonheur, fortune, chance
+N3;幾;キ;いく;combien, quelques
+N4;広;コウ;ひろ.い;large, vaste
+N5;店;テン;みせ;magasin, échoppe
+N4;度;ト;たび;fois, occurrence, degré (°C/F)
+N3;座;ザ;すわ.る;s'asseoir, siège, rassemblement
+N3;庭;テイ;にわ;jardin
+N4;建;ケン,コン;た.てる;construire, construction
+N3;式;シキ -;;méthode, style, cérémonie froid
+N4;弟;テイ,ダイ;おとうと;frère cadet, apprenti, disciple
+N4;弱;ジャク;よわ.い;faible
+N4;強;キョウ;つよ.い;fort
+N3;当;トウ;あ.たる;viser, toucher, approprié
+N3;形;ケイ,ギョウ;かたち;forme, type, apparence
+N3;役;ヤク,エキ -;;service, corvée, poste
+N3;彼;ヒ;かれ,かの;il, celui -là
+N4;待;タイ;ま.つ;attendre
+N5;後;ゴ,コウ;のち,うし.ろ,あと,お く.れる;après, derrière
+N3;徒;ト;いたずら,あだ;élève, compagnon, vain, futile
+N3;得;トク;え.る,う.る;acquérir, obtenir, avantage, bénéfice
+N3;御;ギョ,ゴ;おん,み;honorable, manipuler, contrôler, administrer
+N4;心;シン;こころ;cœur, esprit
+N3;必;ヒツ;かなら .ず;nécessaire, inévitable
+N3;忘;ボウ;わす.れる;oublier
+N3;忙;ボウ;いそが .しい,せわ.しい,おそ.れる;être occupé, débordé
+N3;念;ネン -;;pensée, idée, souhait
+N3;怒;ド;いか.る,おこ.る;se mettre en colère, emportement, fureur
+N3;怖;フ;こわ.い,お.じる,おそ. れる;avoir peur, redouter, craindre, effrayant
+N4;思;シ;おも.う;penser
+N4;急;キュウ;いそ.ぐ;se dépêcher, urgent, soudain
+N3;性;セイ;さが;genre, nature, sexe
+N3;恐;キョウ;おそ.れる,こわ.い;peur, crainte, inquiétude
+N3;恥;チ;は.ずかしい;honte, gêne, déshonneur
+N3;息;ソク;いき;souffle, respiration
+N4;悪;アク;わる.い;mauvais, vice, mal
+N3;悲;ヒ;かな.しい,かな.しむ;mélancolie, peine, se lamenter
+N3;情;ジョウ,セイ;なさ.け;tendresse, compassion, émotion, circonstances
+N3;想;ソウ;おも.う;pensée, idée, conception
+N4;意;イ -;;volontée, idée
+N3;感;カン -;;émotion, sentiment
+N3;慣;カン;な.れる;s'habituer à, coutume
+N3;成;セイ;な.る;se changer en, devenir, croissance
+N3;戦;セン;たたか .う;guerre, combat, combattre
+N3;戻;レイ;もど.る;revenir, rendre, restituer
+N4;所;ショ;ところ;endroit, lieu, place
+N5;手;シュ;て;main
+N3;才;サイ -;;talent, génie, don
+N3;打;ダ;う.つ;frapper, taper, battre
+N3;払;フツ;はら.う;payer, nettoyer
+N3;投;トウ;な.げる;jeter, lancer, investir
+N3;折;セツ;お.る;plier, courber, casser, rompre
+N3;抜;バツ;ぬ.く;extraire, enlever, laisser de côté, omettre
+N3;抱;ホウ;だ.く,いだ.く,かか.え る;étreindre, serrer dans ses bras
+N3;押;オウ;お.す,おさ.える;appuyer, pousser, arrêter, maintenir, retenir
+N3;招;ショウ;まね.く;inviter
+N4;持;ジ;も.つ;tenir, avoir
+N3;指;シ;ゆび,さ.す;doigt, désigner, indiquer
+N3;捕;ホ;つか.まる,と.らえる,とら.える;attraper, capturer
+N3;掛;カイ,ケイ;か.ける,か.かる;accrocher, suspendre, dépendre, arriver à, taxe
+N3;探;タン;さが.す,さぐ.る;chercher, enquête
+N3;支;シ;ささ.える;soutenir, soutien, support, succursale
+N3;放;ホウ;はな.す,はな.つ;libérer, relâcher, émettre
+N3;政;セイ,ショウ;まつりごと,まん;politique, gouvernement, administration
+N3;敗;ハイ;やぶ.れる;défaire, échec, échouer
+N4;教;キョウ;おし.える;enseigner, religion, foi
+N3;散;サン;ち.らかる,ち.らかす;éparpiller, mettre en désordre, s'éparpiller
+N3;数;スウ;かず,かぞ.える;chiffre, compter
+N4;文;ブン,モン;ふみ,あや;lettre, écriture, littérature, phrase
+N4;料;リョウ -;;matériau, prix, frais
+N3;断;ダン;ことわ .る;refuser, décliner une offre, décision, jugement
+N4;方;ホウ;かた;personne, direction, manière de
+N4;旅;リョ;たび;voyage
+N4;族;ゾク;つぎ;famille, clan, bande
+N5;日;ニチ,ジツ;ひ,か;jour, soleil, Japon, compteur pour les jours
+N4;早;ソウ;はや.い;rapide, tôt
+N4;明;メイ;あか.るい;clair, brillant
+N3;易;エキ,イ;やさ.しい;simple, divination, commerce
+N3;昔;セキ;むかし;autrefois, il était une fois
+N4;映;エイ;うつ.す,は.える;projection, se refléter, réflexion
+N4;春;シュン;はる;printemps
+N3;昨;サク -;;hier, précédent
+N4;昼;チュウ;ひる;journée, midi
+N5;時;ジ;とき;temps, heure
+N3;晩;バン -;;soir, crépuscule
+N3;景;ケイ -;;paysage, vue, scène
+N3;晴;セイ;は.れる;s'éclaircir (temps)
+N4;暑;ショ;あつ.い;chaud (météorologique)
+N4;暗;アン;くれ.る;obscurité, s'assombrir
+N3;暮;ボ;く.れる;fin, se terminer, s'achever
+N4;曜;ヨウ -;;jour de la semaine
+N3;曲;キョク;ま.がる;morceau de musique, courber
+N3;更;コウ;さら,ふ.かす;veiller tard la nuit, bien sûr
+N5;書;ショ;か.く;écrire
+N3;最;サイ;もっと .も;le plus, préfixe pour les superlatifs
+N5;月;ゲツ,ガツ;つき;lune, mois
+N4;有;ユウ,ウ;あ.る;posséder, avoir
+N4;服;フク -;;vêtement, avaler (un médicament)
+N3;望;ボウ,モウ;のぞ.む;espérer, aspirer à, désir, espoir
+N4;朝;チョウ;あさ;matin
+N3;期;キ,ゴ -;;période, terme, temps
+N5;木;モク;き;arbre, bois
+N3;未;ミ,ビ;ま.だ;pas encore
+N5;本;ホン;もと;livre, essentiel, réalité, compteur pour les objets allongés
+N4;村;ソン;むら;village
+N3;束;ソク;たば;faisceau, liasse, rame (de papier), bouquet
+N5;来;ライ;く.る;venir, suivant
+N3;杯;ハイ;さかずき;coupe pour le saké, verre, toast, compteur pour les verres
+N5;東;トウ;ひがし;Est
+N4;林;リン;はやし;bois, bosquet
+N3;果;カ;は.て;fruit, résultat, achever
+N5;校;コウ;めん;école
+N3;格;カク,コウ -;;rang, statut, clause
+N4;森;シン;もり;forêt, bois
+N4;業;ギョウ,ゴウ;わざ;activité, profession
+N4;楽;ガク,ラク,ゴウ;たの.しい,たの.しむ;musique, agréable, confortable
+N3;構;コウ;かま.う;s'inquiéter de, préoccupé, construction
+N3;様;ヨウ;さま;apparence, manière, suffixe de nom ( -sama)
+N3;権;ケン,ゴン;おもり,かり,はか.る;pouvoir, autorité
+N3;横;オウ;よこ;à côté de, latéral
+N3;機;キ;はた;machine, opportunité
+N3;欠;ケツ,ケン;か.く;manquer de, lacune
+N3;次;ジ;つぎ;suivant, successif, ordre
+N3;欲;ヨク;ほ.しい;désir, convoitise, désirer, vouloir
+N4;歌;カ;うた,うた.う;chant, chanter
+N4;止;シ;と.まる,と.める,や.む;stopper, arrêter, s'arrêter
+N4;正;セイ,ショウ;ただ.しい;juste, correct, exact, 10^40
+N4;歩;ホ,ブ;ある.く;marcher
+N3;歯;シ;は;dent
+N3;歳;サイ,セイ;とし,とせ,よわい;âge, compteur d'années
+N3;残;ザン,サン;のこ.る;rester, solde (sur un compte bancaire)
+N3;段;ダン,タン -;;étape, rang, marche
+N3;殺;サツ;ころ.す;tuer, massacrer
+N5;母;ボ;はは;mère, maman
+N5;毎;マイ;ごと;chaque, tous les
+N5;気;キ;いき;esprit, atmosphère, humeur
+N5;水;スイ;みず;eau
+N3;求;キュウ;もと.める;demander, vouloir, désirer
+N4;池;チ;いけ;étang, mare, réservoir
+N3;決;ケツ;き.める;décider, fixer
+N3;治;ジ,チ;おさ.める;gouverner, diriger, soigner, maîtriser
+N3;法;ホウ;のり;loi, méthode, principe
+N4;注;チュウ;そそ.ぐ;verser, note, commentaire
+N3;泳;エイ;およ.ぐ;nager
+N4;洋;ヨウ -;;océan, style occidental
+N4;洗;セン;あら.う;laver, se laver
+N3;活;カツ;い.きる,い.かす;vie, vitalité, vigueur, activité
+N3;流;リュウ;なが.れる;s'écouler, courant, style
+N3;浮;フ;う.く,う.かれる;flotter, faire surface, se réjouir, s'amuser
+N4;海;カイ;うみ;mer, océan
+N3;消;ショウ;き.える,け.す;éteindre, effacer
+N3;深;シン;ふか.い;profond, intense, approfondir
+N3;済;サイ,セイ;す.む,す.まない;finir, achever
+N3;渡;ト;わた.る;traverser, transiter, livrer, importer
+N3;港;コウ;みなと;port
+N3;満;マン,バン;み.ちる;remplir, combler, satisfaire
+N3;演;エン -;;représentation sur une scène, numéro (spectacle)
+N4;漢;カン -;;Chine des Hans (ethnie majoritaire en Chine)
+N5;火;カ;ひ;feu
+N3;点;テン;つ.ける,た.てる;point, note, allumer
+N3;然;ゼン,ネン;しか,しか.り;état naturel, suffixe adverbial
+N3;煙;エン;けむ.る,けむり;fumée
+N3;熱;ネツ;あつ.い;chaleur, fièvre, température, passion
+N5;父;フ;ちち;père, papa
+N4;牛;ギュウ;うし;vache
+N4;物;ブツ,モツ;もの;objet, chose concrète
+N4;特;トク -;;spécial
+N3;犯;ハン,ボン;おか.す;crime, délit, enfreindre la loi
+N3;状;ジョウ -;;circonstance, état des choses
+N3;猫;ビョウ;ねこ;chat
+N3;王;オウ -;;roi
+N3;現;ゲン;あらわ .れる,うつ.つ;existant, actuel, devenir visible, montrer
+N3;球;キュウ;たま;sphère, boule, globe
+N4;理;リ;ことわり;raison, principe, logique
+N5;生;セイ,ショウ;い.きる,う.まれる,な ま;vivre, naître, cru, authentique
+N4;産;サン;う.む,う.まれる;production, naissance, donner naissance
+N4;用;ヨウ;もち.いる;emploi, usage, utiliser
+N4;田;デン;た;rizière
+N3;由;ユウ,ユ;よし;moyen, cause, raison
+N3;申;シン;もう.す;s'appeler, dire (de manière polie)
+N5;男;ダン,ナン;おとこ;homme, mâle
+N4;町;チョウ;まち;village, quartier
+N4;画;ガ,カク;えが.く,かく.する,か ぎ.る;image, dessin, peinture, compteur de traits de kanjis
+N4;界;カイ -;;monde, frontière
+N3;留;リュウ,ル;と.める,とど.める;attacher, retenir, rester
+N3;番;バン;つが.い;numéro, ordre
+N3;疑;ギ;うたが .う;méfiance, suspecter, douter
+N3;疲;ヒ;つか.れる;être fatigué, épuisé
+N4;病;ビョウ;や.む,やまい;maladie, malade
+N3;痛;ツウ;いた.い,いた.む;douloureux, douleur, avoir mal
+N4;発;ハツ,ホツ;た.つ,あば.く;départ, émettre
+N3;登;トウ,ト;のぼ.る;grimper, escalader, monter
+N5;白;ハク;しろ.い;blanc
+N5;百;ヒャク,ビャク;もも;cent
+N3;皆;カイ;みな,みんな;tout, tous
+N3;盗;トウ;ぬす.む;voler, dérober
+N5;目;モク,ボク;め œ;il, numérateur ordinal
+N3;直;チョク,ジキ;なお.す,なお.る,す.ぐ;honnête, être guéri/réparé, réparer/guérir
+N4;県;ケン;か.ける;département, préfecture
+N4;真;シン;ま,まこと;vérité, exact, réalité
+N3;眠;ミン;ねむ.る;dormir, sommeil
+N4;着;チャク;き.る,つ.く;s'habiller, arriver
+N4;知;チ;し.る,し.らせる;savoir, connaître
+N4;短;タン;みじか .い;court, bref
+N3;石;セキ,シャク,コク;いし;pierre, roc
+N4;研;ケン;と.ぐ;polir, aiguiser, étudier
+N3;破;ハ;やぶ.る,やぶ.れる;être déchiré, déchiré, défaire
+N3;確;カク,コウ;たし.か,たし.かめる;certitude, évident, s'assurer de, vérifier
+N3;示;ジ,シ;しめ.す;montrer, signaler, indiquer, révéler
+N3;礼;レイ -;;politesse, remerciement
+N5;社;シャ;やしろ;entreprise, société, temple shinto
+N3;祖;ソ -;;ancêtre, aïeul, fondateur
+N3;神;シン,ジン;かみ;divinité, dieu, esprit, kami
+N3;福;フク -;;chance, bonheur, félicité
+N4;私;シ;わたくし,わたし;je, moi, privé
+N4;秋;シュウ;あき,とき;automne
+N3;科;カ -;;département, section, science
+N3;程;テイ;ほど;degré, ampleur, limite, quantité
+N3;種;シュ;たね;graine, semence, sorte
+N3;積;セキ;つ.む,つ.もり;intention, accumuler, entasser
+N4;究;キュウ;きわ.める;recherche, étudier
+N5;空;クウ;そら,あ.く,す.く;ciel, creux, vide
+N3;突;トツ;つ.く;poignarder, enfoncer, percer, irruption
+N3;窓;ソウ,ス;まど;fenêtre
+N5;立;リツ;た.つ;être debout, établir
+N3;笑;ショウ;わら.う;rire, sourire
+N3;等;トウ;ひと.しい,など;classe, degré, égal à, etc
+N4;答;トウ;こた.える,こた.え;solution, réponse, répondre
+N3;箱;ソウ;はこ;boîte, coffre
+N3;米;ベイ,マイ;こめ;grain de riz, Amérique
+N3;約;ヤク;つづ.まる,つづ.める;promesse, approximation, environ
+N4;紙;シ;かみ;papier
+N4;終;シュウ;お.わる;お.える finir, fin
+N3;組;ソ;く.む,くみ;construire, association, groupe, classe
+N3;経;ケイ,キョウ;へ.る,た.つ;expérience, longitude, sûtra
+N3;給;キュウ;たま.う,たも.う;salaire, allocation, subvention
+N3;絵;カイ,エ -;;image, peinture, esquisse
+N3;絶;ゼツ;た.える;désespoir, cesser, interrompre
+N3;続;ゾク,ショク;つづ.く,つづ.ける;continuer
+N3;緒;ショ,チョ;お,いとぐち;lanière, lacet, origine, début, bout
+N3;罪;ザイ;つみ;crime, péché, culpabilité
+N3;置;チ;お.く;placer, poser, déposer
+N3;美;ビ,ミ;うつく .しい;beauté, belle
+N4;習;シュウ;なら.う;apprendre, coutume
+N3;老;ロウ;お.いる,ふ.ける;vieillard, personne âgée
+N4;考;コウ;かんが .える;réfléchir, considérer
+N4;者;シャ;もの;personne (quelqu'un)
+N5;耳;ジ;みみ;oreille
+N5;聞;ブン,モン;き.く,き.こえる;entendre, écouter, demander
+N3;職;ショク,ソク -;;emploi, métier, travail
+N4;肉;ニク;しし;viande, chair
+N3;育;イク;そだ.てる,そだ.つ;élever, grandir
+N3;背;ハイ;せ,せい,そむ.く;dos, arrière, taille (stature), rébellion, désobéir
+N3;能;ノウ;よ.く;capacité, talent, habile, théâtre Nô
+N3;腹;フク;はら;ventre, abdomen
+N4;自;ジ,シ;みずか .ら;soi-même
+N3;舞;ブ;ま.う;danser, tournoyer, voltiger, cercle
+N3;船;セン;ふね;navire, bateau
+N3;良;リョウ;よ.い,い.い;satisfaisant, bien, bon, plaisant
+N4;色;ショク,シキ;いろ;couleur
+N5;花;カ;はな;fleur
+N3;若;ジャク,ニャク,ニャ;わか.い,も.しくわ,も. し;jeune, immature, si, ou bien
+N4;英;エイ;はなぶさ;brillant, talentueux, Angleterre, anglais
+N4;茶;チャ -;;thé
+N3;草;ソウ;くさ;herbe, végétation, plante
+N4;菜;サイ;な;légume
+N3;落;ラク;お.ちる,お.とす;tomber, chuter, faire tomber, perdre (un objet)
+N3;葉;ヨウ;は;feuille (végétal)
+N4;薬;ヤク;くすり;médicament
+N5;行;コウ,ギョウ;い.く,ゆ.く,おこ.なう;aller, voyage
+N3;術;ジュツ;すべ;technique, moyens, art
+N3;表;ヒョウ;あらわ .す;surface apparente, paraître, montrer
+N5;西;セイ;にし;Ouest
+N3;要;ヨウ;い.る;besoin, nécessité, avoir de de
+N5;見;ケン;み.る,み.える,み.せる;regarder, voir
+N3;規;キ -;;norme, standard, règle
+N3;覚;カク;おぼ.える,さ.ます,さ. める,さと.る;se rappeler de, mémoriser, réveil
+N4;親;シン;おや,した.しい,した. しむ;parents, familié, se familiariser avec
+N3;観;カン;み.る;voir, vue, aspect, apparence
+N3;解;カイ,ゲ;と.く,ほど.く;comprendre, résoudre, explication
+N5;言;ゲン,ゴン;い.う;dire, parler
+N4;計;ケイ;はか.る,はか.らう;mesurer, peser, penser à, traiter, gérer
+N3;記;キ;しる.す;récit, narration, narrer, raconter
+N3;訪;ホウ;たず.ねる;rendre visite
+N3;許;キョ;ゆる.す,もと;pardonner, permettre, autoriser
+N4;試;シ;こころ .みる,ため.す;essayer, tenter, essai, tentative
+N5;話;ワ;はな.す,はなし;parler, histoire
+N3;認;ニン;みと.める;reconnaître, approuver, admettre
+N5;語;ゴ;かた.る,かた.らう;langage, mot, raconter
+N4;説;セツ,ゼイ;と.く;convaincre, persuader, opinion, rumeur
+N5;読;ドク,トク;よ.む;lire
+N3;調;チョウ;しら.べる;harmonie, rassembler des informations, enquêter
+N3;談;ダン -;;propos, conversation, discuter
+N3;識;シキ;しる.す;connaissance, discernement
+N3;警;ケイ;いまし .める;faire des reproches, avertir, mettre en garde
+N3;議;ギ -;;entretien, délibération, débat
+N3;負;フ;ま.ける;défaite, perdre, devoir à quelqu'un
+N3;財;ザイ,サイ;たから;argent, fortune
+N3;貧;ヒン,ビン;まず.しい;pauvre, pauvreté
+N3;責;セキ;せ.める;blâmer, réprimander
+N5;買;バイ;か.う;acheter
+N4;貸;タイ;か.す;prêter, louer
+N3;費;ヒ;つい.やす,つい.える;dépenser, être dépensé, coût
+N3;資;シ -;;ressource, capital monétaire, fonds
+N3;賛;サン;たす.ける,たた.える;louange, approbation, approuver
+N4;質;シツ;たち,ただ.す,もと;substance, matière, qualité
+N4;赤;セキ;あか.い;rouge
+N4;走;ソウ;はし.る;courir
+N4;起;キ;お.きる,お.こす;se lever, se réveiller, réveiller
+N3;越;エツ,オツ;こ.す,こ.える;surpasser, dépasser, traverser
+N5;足;ソク;あし,た.りる,た.す;jambe, être suffisant, ajouter
+N3;路;ロ,ル;みち;route, chemin, voie
+N5;車;シャ;くるま;véhicule, voiture
+N4;転;テン;ころ.ぶ,まろ.ぶ;tourner, rouler
+N4;軽;ケイ;かる.い;léger, sans importance
+N3;辞;ジ;や.める;mot, terme, expression, renoncer à, cesser
+N3;込;;こ.む;plein de monde, être rempli, mélange
+N3;迎;ゲイ;むか.える;accueillir, rencontrer
+N4;近;キン,コン;ちか.い;proche, récent
+N3;返;ヘン;かえ.す,かえ.る;rendre, retourner
+N3;迷;メイ;まよ.う;s'égarer, se perdre, perdu
+N3;追;ツイ;お.う;pourchasser, suivre, poursuivre
+N3;退;タイ;しりぞ .く,の.ける,ど. く;retraite, se retirer, exclure, rejeter
+N4;送;ソウ;おく.る;envoyer, expédier, escorter
+N3;逃;トウ;に.げる,のが.す;s'échapper, s'enfuir, s'évader
+N4;通;ツウ,ツ;とお.る,とお.り,かよ. う;circulation, rue, trajet (travail)
+N3;速;ソク;はや.い;rapide (en vitesse), vite
+N3;連;レン;つ.れる,つら.なる;emmener, accompagner, partie, bande
+N5;週;シュウ -;;semaine
+N4;進;シン;すす.む;avancer, progresser
+N3;遅;チ;おく.れる,おそ.い;être en retard, lent, retard
+N3;遊;ユウ;あそ.ぶ;jouer
+N4;運;ウン;はこ.ぶ;transporter, destin, chance
+N3;過;カ;す.ぎる,あやま .つ;dépasser, excéder
+N5;道;ドウ;みち;voie, route, chemin
+N3;達;タツ,ダ;たち;atteindre, arriver, suffixe du pluriel
+N3;違;イ;ちが.う,ちが.い,ちが. える;différer, différence, être différent
+N4;遠;エン,オン;とお.い;loin, distant
+N3;適;テキ;かな.う;approprié, qualifié, convenable
+N3;選;セン;えら.ぶ;choisir, sélectionner, élection
+N3;部;ブ;べ;section, portion, partie, service
+N4;都;ト,ツ;みやこ;capitale, métropôle
+N3;配;ハイ;くば.る;livrer, distribuer
+N3;酒;シュ;さけ;alcool, sake
+N4;重;ジュウ,チョウ;おも.い;lourd
+N4;野;ヤ;の;campagne, plaine, champ
+N5;金;キン,コン;かね;or
+N4;銀;ギン;しろがね;argent (minerai)
+N5;長;チョウ;なが.い;chef, long
+N4;門;モン;かど,と;porte, entrée, portail
+N3;閉;ヘイ;と.じる,し.める,し.ま る,た.てる;fermer, se fermer
+N4;開;カイ;ひら.く,あ.く,あ.ける;ouvrir, s'ouvrir
+N5;間;カン;あいだ,ま;intervalle
+N3;関;カン;せき,かか.わる;barrière, péage, lien, relation
+N3;降;コウ,ゴ;お.りる,ふ.る;descendre, tomber (pluie, neige)
+N3;限;ゲン;かぎ.る;limiter, restreindre
+N3;除;ジョ,ジ;のぞ.く;exclure, annuler, division (mathématique)
+N3;険;ケン;けわ.しい;escarpé, raide, abrupt, lieu inaccessible
+N3;陽;ヨウ;ひ;énergie positive, soleil
+N3;際;サイ;きわ;occasion, moment, bord, extrémité
+N4;集;シュウ;あつ.まる,あつ.める;rassembler, réunir
+N3;雑;ザツ,ゾウ;まじ.える,まじ.る;divers, varié
+N3;難;ナン;むずか .しい;difficile, problème, accident
+N5;雨;ウ;あめ;pluie
+N3;雪;セツ;ゆき;neige
+N5;電;デン -;;électricité
+N4;青;セイ,ショウ;あお.い;bleu, vert, inexpérience
+N3;静;セイ,ジョウ;しず.か,しず.まる,し ず.める;calme, paisible, se calmer, calmer
+N3;非;ヒ;あら.ず;faute, injustice, négatif, condamner
+N3;面;メン,ベン;おもて;surface, masque, face
+N3;靴;カ;くつ;chaussure
+N4;音;オン,イン;おと;son, bruit
+N3;頂;チョウ;いただ .く;sommet, pic, recevoir
+N4;頭;トウ,ズ;あたま;tête, compteur pour les gros animaux
+N3;頼;ライ;たの.む,たよ.る;demander, compter sur, confiance
+N4;題;ダイ -;;sujet, thème
+N4;顔;ガン;かお;visage, face
+N3;願;ガン;ねが.う,ねがい;souhaiter, souhait, vœu, espoir
+N3;類;ルイ;たぐ.い;variété, sorte, genre
+N4;風;フウ,フ;かぜ;vent, air, apparence, manière
+N3;飛;ヒ;と.ぶ;voler, s'envoler
+N5;食;ショク;た.べる;manger, nourriture
+N4;飯;ハン;めし;riz cuit, repas
+N5;飲;イン,オン;の.む;boire, boisson
+N4;館;カン;やかた,たて;grand bâtiment, résidence
+N4;首;シュ;くび;cou, compteur de chansons/poèmes
+N3;馬;バ;うま;cheval
+N5;駅;エキ -;;gare
+N5;高;コウ;たか.い;haut, élevé, cher
+N3;髪;ハツ;かみ;cheveux
+N5;魚;ギョ;うお,さかな;poisson
+N4;鳥;チョウ;とり;oiseau
+N3;鳴;メイ;な.く;pousser son cri pour un animal (aboyer, miauler…)
+N4;黒;コク;くろ.い;noir
+N2;並;ヘイ;な.み,なら.べる,なら.ぶ;alignée, rangée, mettre en rang, faire la queue
+N2;丸;ガン;まる.い;rond, circulaire
+N2;久;キュウ,ク;ひさ.しい;ancien, qui dure, depuis longtemps
+N2;乱;ラン,ロン;みだ.る,おさ.める,わ た.る;rébellion, émeute, mettre en désordre, confusion
+N2;乳;ニュウ;ちち,ち;sein, lait maternel
+N2;乾;カン,ケン;かわ.く,ほ.す,ひ.る;vider (un verre), sécher, sécheresse
+N2;了;リョウ -;;achevé, fini
+N2;介;カイ -;;intermédiaire, intervention, coquillage
+N2;仏;ブツ,フツ;ほとけ;Bouddha, France, français
+N2;令;レイ -;;ordre, commandement, décret
+N2;仮;カ,ケ;かり;temporaire, provisoire, nom d'emprunt
+N2;仲;チュウ;なか;rapport, relation, médiation
+N2;伸;シン;の.びる;élargir, étendre, étirer, allonger
+N2;伺;シ;うかが .う;demander, questionner, visiter (hon), présenter ses respects
+N2;依;イ,エ;よ.る;dépendant, dû à
+N2;価;カ,ケ;あたい;prix, valeur
+N2;保;ホ,ホウ;たも.つ;préserver, maintenir, garantir
+N2;修;シュウ,シュ;おさ.める;bien se conduire, discipline, maîtrise
+N2;個;コ,カ -;;individuel, privé, compteur d'articles ou d'unités militaires
+N2;倍;バイ -;;double, deux fois
+N2;停;テイ;と.める,と.まる;arrêt, s'arrêter
+N2;健;ケン;すこ.やか;pleine forme, bien portant, sain
+N2;傾;ケイ;かたむ .く,かたぶ .く,かた.げる;pencher, incliner, basculer, sombrer
+N2;像;ゾウ -;;portrait, figure, représentation
+N2;億;オク -;;cent million, 10^8
+N2;兆;チョウ;きざ.す,きざ.し;signe, présage, donner signe, 10^12
+N2;児;ジ,ニ;こ;nouveau -né, enfant
+N2;党;トウ;なかま,むら;parti politique, faction
+N2;公;コウ,ク;おおやけ;public, officiel
+N2;兵;ヘイ,ヒョウ;つわもの;soldat, guerrier, troupes
+N2;冊;サツ,サク;ふみ;tome, volume, compteur pour les livres
+N2;再;サイ,サ;ふたた .び;pour la seconde fois, de nouveau
+N2;凍;トウ;こお.る,こご.える,い.てる,し.みる;geler, congeler
+N2;刉;カン -;;publication, édition, publier
+N2;刷;サツ;す.る;impression, imprimer
+N2;券;ケン -;;coupon, ticket
+N2;刺;シ;さ.す,さし,とげ;percer, piquer, enfoncer, carte de visite
+N2;則;ソク;のっと .る;règlement, norme, loi
+N2;副;フク -;;vice-, accompagnement
+N2;劇;ゲキ -;;pièce de théâtre, théâtre
+N2;効;コウ;き.く;être efficace, efficace, mérite
+N2;勇;ユウ;いさ.む;avoir du courage, bravoure, verve
+N2;募;ボ;つの.る;empirer, recruter, devenir violent, contribution (monétaire)
+N2;勢;セイ,ゼイ;いきお .い,はずみ;énergie, vigueur, puissance
+N2;包;ホウ;つつ.む;envelopper, emballer, recouvrir
+N2;匹;ヒツ;ひき;rouleau de tissu, compteur pour les petits animaux, égal
+N2;卒;ソツ;お.える,お.わる;fin des études, soldat, serviteur
+N2;協;キョウ -;;coopération
+N2;占;セン;うらな .う,し.める;divination, bonne aventure, tenir, posséder, prendre
+N2;卵;ラン;たまご œ;uf
+N2;厚;コウ;あつ.い;épais, lourd, cordial
+N2;双;ソウ;ふた,ふたつ;paire, deux parties, compteurs pour les paires
+N2;叫;キョウ;さけ.ぶ;crier, hurler
+N2;召;ショウ;め.す;appeler, faire venir à soi, porter (des vêtements), attraper (un rhume), prendre (un bain), manger, boire
+N2;可;カ,コク;べ.き,べ.し;possible, réalisable, acceptable
+N2;史;シ -;;histoire, chronique
+N2;司;シ;つかさど .る;administrer, gouverner, directeur
+N2;各;カク;おのおの;chaque, chacun
+N2;含;ガン;ふく.む;inclure, garder à l'esprit, retenir
+N2;周;シュウ;まわ.り;tour, alentours, rotation
+N2;咲;ショウ;さ.く;éclore, fleurir, floraison
+N2;善;ゼン;よ.い,い.い,よ.く;bien, bonté, vertu
+N2;喫;キツ -;;consommer, manger, boire, fumer
+N2;営;エイ;いとな .む;diriger (un spectacle, une entreprise), travail
+N2;器;キ;うつわ;ustensile, instrument, appareil
+N2;団;ダン,トン;かたまり,まる.い;groupe, association
+N2;囲;イ;かこ.む;entourer, assiéger, encercler
+N2;固;コ;かた.い,かた.める;dur, ferme, solide, durcir
+N2;圧;アツ,エン,オウ;お.す,へ.す,おさ.える,お.さえる;pression, domination, submerger, dominer
+N2;坂;ハン;さか;pente, colline
+N2;均;キン;なら.す;égalisé, aplani, nivelé
+N2;坊;ボウ -;;enfant, garçon, prêtre bouddhiste, bonze
+N2;型;ケイ;かた;modèle, type
+N2;埋;マイ;う.める,うず.める,い.ける;enterrer, ensevelir, enfouir, remplir
+N2;城;ジョウ;しろ;château, forteresse
+N2;域;イキ -;;zone, région, limite
+N2;基;キ;もと,もとい;base, fondement, fondations
+N2;塔;トウ -;;pagode, tour
+N2;塩;エン;しお;sel
+N2;境;キョウ,ケイ;さかい;frontière, région, environnement
+N2;壁;ヘキ;かべ;mur, paroi, barrière
+N2;央;オウ -;;centre, milieu
+N2;奥;オウ;おく,おく.まる,くま;intérieur, cœur, épouse
+N2;姓;セイ,ショウ -;;nom de famille
+N2;委;イ;ゆだ.ねる;comité, confier, déléguer
+N2;季;キ -;;saison
+N2;孫;ソン;まご;descendance, petits -enfants
+N2;宇;ウ -;;firmament, cieux
+N2;宙;チュウ -;;espace, air
+N2;宝;ホウ;たから;trésor, objet précieux
+N2;寺;ジ;てら;temple bouddhiste
+N2;封;フウ,ホウ -;;sceller, fermer, sceau
+N2;専;セン;もっぱ .ら;spécialité, exclusivement
+N2;将;ショウ;まさ.に;commandant, général, l'un après l'autre
+N2;導;ドウ;みちび .く;mener, guider, conduire
+N2;届;カイ;とど.ける;remettre, livrer, notification
+N2;展;テン -;;développement, déploiement, exposition
+N2;層;ソウ -;;strate, niveau, couche
+N2;岩;ガン;いわ;rocher, roc, falaise
+N2;岸;ガン;きし;rivage, rive
+N2;島;トウ;しま;île
+N2;州;シュウ;す;province, état
+N2;巨;キョ -;;gigantesque, énorme, gros
+N2;巻;カン,ケン;ま.く,まき;enrouler, rouleau, tome
+N2;布;フ;ぬの;linge, tissu
+N2;希;キ;まれ;espoir, souhait, désir
+N2;帯;タイ;お.びる,おび;ceinture, zone
+N2;帽;ボウ -;;casquette, chapeau, couvre -chef
+N2;幅;フク;はば;largeur, kakemono, rouleau suspendu au mur
+N2;干;カン;ほ.す,ひ.る;sécher, sec
+N2;幼;ヨウ;おさな .い;enfance, enfantin, puéril
+N2;庁;チョウ,テイ;やくしょ;bureau gouvernemental
+N2;床;ショウ;とこ,ゆか;plancher, lit, tatami, compteur pour les lits
+N2;底;テイ;そこ;fond, profondeur
+N2;府;フ -;;préfecture, bureau gouvernemental
+N2;庫;コ,ク;くら;entrepôt, stock
+N2;康;コウ -;;tranquille, paisible, calme
+N2;延;エン;の.びる,の.ばす;allonger, prolonger, être prolongé
+N2;張;チョウ;は.る;allonger, étirer, fixer, coller, tendre
+N2;律;リツ -;;loi, régulation, rythme
+N2;復;フク;また;retourner, reprendre, restaurer
+N2;志;シ;こころざ .す,こころざ し;volonté, intention, avoir l'intention de
+N2;忚;オウ;こた.える;répondre, postuler, accepter
+N2;快;カイ;こころよ .い;agréable, plaisant, confortable
+N2;恋;レン;こ.う,こい;amour, être amoureux
+N2;恵;ケイ,エ;めぐ.む;service, faveur, bienfait, grâce
+N2;患;カン;わずら .う;souffrir de, maladie, souffrance
+N2;悩;ノウ;なや.む;ennui, souci, peine, tourment
+N2;戸;コ;と;porte
+N2;批;ヒ -;;critique, analyse, commentaire
+N2;承;ショウ,ジョウ;うけたまわ .る;entendre, recevoir, être informé
+N2;技;ギ;わざ;technique, habileté, prouesse
+N2;担;タン;かつ.ぐ,にな.う;porter sur le dos, se charger de, responsable
+N2;拝;ハイ;おが.む,おろが .む;vénérer, prier, adorer
+N2;拡;カク,コウ;ひろ.がる;élargir, étendre, agrandir
+N2;拾;シュウ;ひろ.う;ramasser, recueillir, cueillir
+N2;捜;ソウ,シュ,シュウ;さが.す;chercher, rechercher
+N2;捨;シャ;す.てる;jeter, abandonner, démissionner
+N2;掃;ソウ,シュ;は.く;nettoyer, balayer
+N2;授;ジュ;さず.ける;conférer, accorder
+N2;掘;クツ;ほ.る;creuser, fouiller
+N2;採;サイ;と.る;prendre, récolter, cueillir
+N2;接;セツ,ショウ;つ.ぐ;toucher, contact, joindre
+N2;換;カン;か.える;échanger, remplacer
+N2;損;ソン;そこ.なう;blesser, cause du dommage, nuire
+N2;操;ソウ,サン;みさお,あやつ .る;manipuler, mener, diriger, fidélité, chasteté
+N2;改;カイ;あらた .める;modifier, améliorer, réformer
+N2;故;コ;ゆえ,ふる.い,もと;défunt, circonstances, cause
+N2;救;キュウ;すく.う;secourir, sauver, aider
+N2;敬;ケイ,キョウ;うやま .う;respecter, vénérer, honorer
+N2;整;セイ;ととの .える;mettre en ordre, arranger
+N2;旧;キュウ;ふる.い,もと;ancien, d'autrefois
+N2;昇;ショウ;のぼ.る;s'élever, grimper, monter
+N2;星;セイ;ほし;étoile
+N2;普;フ;あまね .く;universel, large, général, Prusse
+N2;暖;ダン,ノン;あたた .かい,あたた .め る;chaleur, chauffer
+N2;暴;ボウ,バク;あば.く,あば.れる;agir violemment, cruauté, violence, dévoiler
+N2;曇;ドン;くも.る;temps couvert, nuageux, se couvrir (temps)
+N2;替;タイ;か.わる;remplacer, substituer, échanger
+N2;札;サツ;ふだ;étiquette, carte, compteur de billets
+N2;机;キ;つくえ;table, bureau
+N2;材;ザイ -;;matériau, ingrédient, talent
+N2;条;ジョウ;えだ,すじ;article, clause, bande
+N2;板;ハン;いた;planche, panneau, plaque
+N2;枚;マイ,バイ -;;feuille de, compteur d'objets plats
+N2;枝;シ;えだ;branche, rameau, brindille
+N2;枯;コ;か.れる;flétrir, s'épuiser, dépérir
+N2;柔;ジュウ,ニュウ;やわ.らか;tendresse, douceur, souplesse
+N2;査;サ -;;investigation
+N2;栄;エイ;は.え,は.える;florissant, prospère, prospérer
+N2;根;コン;ね;persévérance, racine, origine
+N2;案;アン;つくえ;proposition suggestion, plan, réflexion
+N2;械;カイ;かせ;machine
+N2;棒;ボウ -;;bâton, barre, baguette
+N2;植;ショク;う.える;planter
+N2;検;ケン;しら.べる;investigation, inspection, examen
+N2;極;キョク,ゴク;きわ.める;pôles (Nord et Sud), arriver jusqu'au bout, hautement
+N2;標;ヒョウ;しるべ,しるし;empreinte, marque, tampon
+N2;橋;キョウ;はし;pont
+N2;欧;オウ;うた.う,は.く;Europe
+N2;武;ブ,ム;たけ.し;chevalerie, guerre, militaire
+N2;歴;レキ,レッキ -;;le temps qui passe, curriculum
+N2;死;シ;し.ぬ;mourir, mort
+N2;殿;デン;との,どの;manoir, demeure, palais, temple, Monseigneur
+N2;毒;ドク -;;poison
+N2;比;ヒ;くら.べる;comparer, proportion
+N2;毛;モウ;け;poil, cheveux, plumage
+N2;氷;ヒョウ;こおり,こお.る;glace, glacer
+N2;永;エイ;なが.い;éternité, long en temps
+N2;汗;カン;あせ;sueur, transpiration
+N2;汚;オ;けが.れる,よご.れる,きたな .い;sale, se salir, polluer, souiller
+N2;沈;チン;しず.む;couler, être submergé, être déprimé, aloès
+N2;河;カ;かわ;rivière, fleuve
+N2;沸;フツ;わ.く;bouillir, porter à ébullition, chauffer
+N2;油;ユウ;あぶら;huile
+N2;況;キョウ;まし.て,いわ.んや;condition, situation
+N2;泉;セン;いずみ;source, fontaine
+N2;泊;ハク;と.まる;passer la nuit, loger, séjour, ancrage
+N2;波;ハ;なみ;vague, onde
+N2;泣;キュウ;な.く;pleurer, sangloter
+N2;泤;デイ;どろ;boue, bourbe, voleur
+N2;浅;セン;あさ.い;peu profond, superficiel
+N2;浴;ヨク;あ.びる;se baigner, se dorer (au soleil)
+N2;液;エキ -;;liquide, fluide, sécrétion
+N2;混;コン;ま.じる;mélanger, mêler, confusion
+N2;清;セイ,ショウ;きよ.い,きよ.める;clair, limpide, purifier
+N2;減;ゲン;へ.る;décliner, décroître
+N2;温;オン;あたた .かい,あたた .め る;chaud, réchauffer
+N2;測;ソク;はか.る;mesurer, doser, plan
+N2;湖;コ;みずうみ;lac
+N2;湯;トウ;ゆ;eau chaude
+N2;湾;ワン -;;baie, golfe, crique
+N2;湿;シツ,シュウ;しめ.る,うるお .う;humidité, moiteur, mouillé
+N2;準;ジュン;じゅん .じる,ひと.しい,みずもり;demi -, quasi -, standard, se conformer à
+N2;溶;ヨウ;と.ける;fondre, dissoudre
+N2;滴;テキ;しずく,したた .る;goutte, s'écouler
+N2;漁;ギョ,リョウ;あさ.る;pêcher
+N2;濃;ノウ;こ.い;dense, concentré, épais
+N2;濯;タク;すす.ぐ,ゆす.ぐ;laver, rincer, lessive
+N2;灯;トウ;ひ;lampe, lumière électrique
+N2;灰;カイ;はい;cendre
+N2;炭;タン;すみ;charbon de bois, charbon
+N2;無;ム,ブ;な.い;perdre, égarer, rien, négatif
+N2;焼;ショウ;や.く,や.ける;griller, rôtir, brûler
+N2;照;ショウ;て.る;briller, illuminer, comparer
+N2;燃;ネン;も.える;consumer, brûler, flamber
+N2;燥;ソウ;はしゃ .ぐ;assécher, tarir, être joyeux, s'amuser
+N2;爆;バク;は.ぜる;bombe, exploser, faire sauter
+N2;片;ヘン;かた;partie, fragment, un (d'une paire)
+N2;版;ハン -;;impression, édition, plaque d'impression
+N2;独;ドク,トク;ひと.り;seul, célibataire, unique
+N2;狭;キョウ,コウ;せま.い,せば.める;étroit, exigu, se contracter
+N2;率;ソツ,リツ;ひき.いる;taux, pourcentage, rapport
+N2;玉;ギョク;たま;boule, sphère, bijou
+N2;珍;チン;めずら .しい;étrange, bizarre, curieux
+N2;環;カン;わ;anneau, cercle, maillon
+N2;瓶;ビン;かめ;pot de fleur, fiole, bouteille, flacon
+N2;甘;カン;あま.い;doux, sucré, dorloter, choyer
+N2;畑;;はた,はたけ;champ
+N2;畜;チク -;;bétail, animaux domestiques
+N2;略;リャク;ほぼ,おか.す,おさ.め る;abbréviation, résumé, raccourci
+N2;異;イ;こと,こと.なる;inhabituel, surprenant, bizzarerie
+N2;療;リョウ -;;soin, traitement médical
+N2;的;テキ;まと;objectif, cible, suffixe pour former des adjectifs
+N2;皮;ヒ;かわ;peau, écorce, cuir
+N2;皿;ベイ;さら;assiette, plat
+N2;省;セイ,ショウ;かえり .みる;ministère, supprimer, évoquer le passé
+N2;看;カン;み.る;regarder attentivement, veiller sur
+N2;砂;サ;すな;sable
+N2;硬;コウ;かた.い;raide, dur, rude
+N2;磨;マ;みが.く,す.る;polir, astiquer, faire briller, brosser (les dents)
+N2;祈;キ;いの.る;prier, vœu, prière
+N2;祝;シュク,シュウ;いわ.う;célébrer, fêter
+N2;祭;サイ;まつ.る,まつ.り,まつ り;célébrer, festival
+N2;禁;キン -;;interdiction, interdire, défense de
+N2;秒;ビョウ -;;seconde
+N2;移;イ;うつ.る;déplacer, transporter, transférer
+N2;税;ゼイ -;;taxe, impôt
+N2;章;ショウ -;;chapître, insigne
+N2;童;ドウ;わらべ;enfant
+N2;競;キョウ,ケイ;きそ.う;compétition, rivaliser, concours
+N2;竹;チク;たけ;bambou
+N2;符;フ -;;ticket, marque, amulette
+N2;第;ダイ,テイ -;;préfixe ordinal, degré, numéro
+N2;筆;ヒツ;ふで;pinceau
+N2;筒;トウ;つつ;cylindre, tube, tuyau, canon d'une arme
+N2;算;サン;そろ;calcul
+N2;管;カン;くだ;tuyau, tube, gestion
+N2;節;セツ,セチ;ふし;période, saison, occasion
+N2;簡;カン -;;simplicité, brièveté
+N2;籍;セキ -;;enrôler, adhésion, registre (d'état civil, administratif)
+N2;粉;フン;こ,こな;farine, poudre
+N2;粒;リュウ;つぶ;grain, particule, compteur pour les particules
+N2;糸;シ;いと;fil
+N2;紅;コウ,ク;べに,くれない,あか.い;rouge foncé, cramoisi, rouge à lèvres
+N2;純;ジュン -;;pureté, innocence, net (pour un bénéfice)
+N2;級;キュウ -;;rang, niveau
+N2;細;サイ;ほそ.い,こま.かい;fin, étroit, ténu
+N2;紹;ショウ -;;présentations, introduction (d'une personne)
+N2;結;ケツ;むす.ぶ;lier, nouer, attacher, organiser
+N2;絡;ラク;から.む;entrelacer, s'enrouler autour, s'empêtrer dans
+N2;綿;メン;わた;coton
+N2;総;ソウ;す.べて;global, tout, entier
+N2;緑;リョク,ロク;みどり;vert
+N2;線;セン;すじ;ligne, voie, fil
+N2;編;ヘン;あ.む;tresse, natte, tricoter, compilation
+N2;練;レン;ね.る;s'entraîner, s'exercer り, よすが affinité, relation, bordure
+N2;績;セキ -;;exploit, performance, coton non tissé
+N2;缶;カン;かま;boîte de conserve, conteneur, récipient
+N2;署;ショ -;;rôle, inscription, bureau (d'une administration)
+N2;群;グン;む.れる;groupe, foule, attroupement, s'attrouper
+N2;羽;ウ;は,はね;plume, compteur pour les oiseaux et les lapins
+N2;翌;ヨク -;;suivant (dans le temps), celui d'après
+N2;耕;コウ;たがや .す;labourer, cultiver
+N2;肌;キ;はだ;peau, texture
+N2;肩;ケン;かた;épaule
+N2;肯;コウ;がえんじ .る;accord, consentement
+N2;胃;イ -;;estomac
+N2;胸;キョウ;むね;poitrine
+N2;脂;シ;あぶら;gras, graisse
+N2;脳;ノウ -;;cerveau
+N2;腕;ワン;うで;bras, aptitude, capacité
+N2;腰;ヨウ;こし;hanche, taille (pour une personne)
+N2;膚;フ;はだ;peau, texture
+N2;臓;ゾウ;はらわた;viscères, entraille
+N2;臣;シン,ジン -;;serviteur, vassal, sujet
+N2;舟;シュウ;ふね;bateau, navire, vaisseau
+N2;航;コウ -;;navigation
+N2;般;ハン -;;transporteur, général, global
+N2;芸;ゲイ;う.える,のり;art, interprétation, habileté
+N2;荒;コウ;あら.い,すさ.む,あ.れ る;brutal, violent, endommager, dévaster
+N2;荷;カ;に;chargement, fardeau, bagage
+N2;菓;カ -;;gâteau, friandise
+N2;著;チョ,チャク;あらわ .す,いちじる .し い;exposer, publier, ouvrage littéraire, remarquable
+N2;蒸;ジョウ,セイ;む.す;vapeur, dégager de la vapeur, étuver
+N2;蔵;ゾウ,ソウ;くら,おさ.める,かく.れる;entrepôt, posséder, avoir, cacher
+N2;薄;ハク;うす.い;fin, dilué, léger (au goût)
+N2;虫;チュウ,キ;むし;insecte
+N2;血;ケツ;ち;sang
+N2;衣;イ,エ;ころも,きぬ;vêtement, habillement
+N2;袋;タイ;ふくろ;sac, sacoche, mère
+N2;被;ヒ;こうむ .る,おお.う,か;subir, recevoir, recouvrir, porter sur la tête,
+N2;装;ソウ,ショウ;よそお .う;se revêtir, orner, s'habiller
+N2;裏;リ;うら;opposé, revers, arrière
+N2;補;ホ;おぎな .う;assister, compléter, assistant, complément
+N2;製;セイ -;;fabriqué en, fabrication
+N2;複;フク -;;multiple, répétitif, composé, compliqué
+N2;角;カク;かど;angle, coin
+N2;触;ショク;ふ.れる,さわ.る;toucher, contact, annoncer
+N2;設;セツ;もう.ける;établir, fonder, créer
+N2;評;ヒョウ -;;critiquer, commenter, évaluer
+N2;詞;シ -;;mot, terme
+N2;詰;キツ,キチ;つ.める;fermé, compact, réprimande, blâme
+N2;誌;シ -;;revue, magazine, document
+N2;課;カ -;;chapître, section, partie
+N2;諸;ショ;もろ;divers, multiple, plusieurs
+N2;講;コウ -;;cours, club, association
+N2;谷;コク;たに;vallée
+N2;豊;ホウ,ブ;ゆた.か,とよ;fertile, abondance, riche
+N2;象;ゾウ,ショウ;かたど .る;éléphant, image, forme, phénomène
+N2;貝;バイ;かい;coquillage
+N2;貨;カ;たから;frêt, bien
+N2;販;ハン -;;vente, commercialisation
+N2;貯;チョ;た.める,たくわ .える;mettre de côté, stocker, économie, épargne
+N2;貿;ボウ -;;commerce, échange
+N2;賃;チン -;;tarif, frais, charge (monétaire)
+N2;賞;ショウ;ほ.める;récompense, faire l'éloge de
+N2;賢;ケン;かしこ .い;sagesse, intelligence
+N2;贈;ゾウ;おく.る;offrir, donner, accorder, cadeau
+N2;超;チョウ;こ.える;dépasser, excéder
+N2;跡;セキ;あと;empreinte, trace, marque
+N2;踊;ヨウ;おど.る;danser, bondir, sautiller
+N2;身;シン;み;individu, chair, corps
+N2;軍;グン -;;armée, troupes
+N2;軒;ケン;のき;gouttière, auvent, compteur pour les maisons
+N2;軟;ナン;やわ.らかい;mou, tendre, souple
+N2;較;カク,コウ;くら.べる;comparer, comparaison, constraste
+N2;輪;リン;わ;roue, anneau, compteur des fleurs ou des roues
+N2;輸;ユ,シュ -;;transporter, envoyer
+N2;辛;シン;から.い,つら.い;épicé, piquant, relevé
+N2;農;ノウ -;;agriculture
+N2;辺;ヘン;あた.り;alentours, les environs, le voisinage
+N2;述;ジュツ;の.べる;expliquer, mentionner, déclarer
+N2;逆;ギャク,ゲキ;さか,さか.さ,さか.ら う;contraire, inverse, opposé
+N2;造;ゾウ;つく.る;construire, édifice
+N2;郊;コウ -;;périphérie, banlieue
+N2;郵;ユウ -;;poste, courrier
+N2;量;リョウ;はか.る;peser, mesurer, étudier (une situation)
+N2;針;シン;はり;aiguille
+N2;鈍;ドン;にぶ.い,なま.る,なま く.ら;émoussé, lent, bête
+N2;鉄;テツ;くろがね;fer
+N2;鉱;コウ;あらがね;minerai
+N2;銅;ドウ;あかがね;cuivre
+N2;鋭;エイ;するど .い;pointu, tranchant, aiguisé forger
+N2;錬;レン;ね.る;endurcir, améliorer, entrainer, perfectionner
+N2;録;ロク -;;enregistrement, registre
+N2;防;ボウ;ふせ.ぐ;prévenir d'un danger, protéger
+N2;陸;リク;おか;continent, vaste étendue de terre
+N2;隅;グウ;すみ;coin, recoin
+N2;階;カイ;きざはし;étage, niveau, compteur d'étage
+N2;隻;セキ -;;compteur pour les bateaux, un élément d'une paire, navire
+N2;雇;コ;やと.う;employer, embaucher
+N2;雲;ウン;くも;nuage
+N2;零;レイ;ぜろ,こぼ.す;zéro, répandre, verser
+N2;震;シン;ふる.う;secouer, frémir, tremblement
+N2;革;カク;かわ;cuir, réforme, renouvellement
+N2;順;ジュン -;;ordre, séquence, obéir, docilité
+N2;預;ヨ;あず.ける;confier, se voir confier, dépôt, garde
+N2;領;リョウ;えり;contrôle, juridiction, domaine
+N2;額;ガク;ひたい;front, encadrement, montant, volume
+N2;香;コウ,キョウ;かお.り,かお.る;parfum, senteur, parfumer
+N2;駐;チュウ -;;stationnement, résident
+N2;骨;コツ;ほね;os, armature
+N2;麦;バク;むぎ;céréale, blé, orge, avoine, seigle
+N2;黄;コウ,オウ;き;jaune
+N2;鼻;ビ;はな;nez, museau, groin
+N2;齢;レイ;よわい,とし;âge
+N1;丁;チョウ,テイ;ひのと;bloc , adulte, exactitude, soin extrême
+N1;丈;ジョウ;たけ,だけ;longueur, Mr, Mme, stature, taille, seulement
+N1;且;ショ,ソ,ショウ;か.つ;de plus, en outre, et aussi
+N1;丘;キュウ;おか;colline, butte
+N1;丙;ヘイ;ひのえ;trois, troisième élément d'une série
+N1;丹;タン;に;vermillon, couleur rouille, rouge
+N1;乏;ボウ;とぼ.しい;insuffisance, dénuement, manque
+N1;乙;オツ,イツ;おと,きのと;dernier, plein d'esprit, étrange, chic, piquant
+N1;亀;キ;かめ;tortue
+N1;井;セイ,ショウ;い;puits, margelle, ville
+N1;亜;ア;つ.ぐ;Asie, suivant, sous -, sub
+N1;享;キョウ,コウ;う.ける;recevoir, répondre (au téléphone), prendre, subir (un test, une opération)
+N1;亭;テイ -;;pavillon, restaurant
+N1;仁;ジン,ニ,ニン -;;bienveillance, humanité, charité
+N1;仙;セン,セント -;;ermite, sorcier, centime (sen = 1/100 de yen)
+N1;仰;ギョウ,コウ;あお.ぐ,お.っしゃる;dire, raconter (hum), dépendre, respecter, prendre (de la nourriture)
+N1;企;キ;くわだ .てる,たくら .む;entreprendre, projet, concept, plan
+N1;伎;ギ,キ;わざ;technique, art poser (un tuyau)
+N1;伐;バツ;き.る,う.つ;abattre (un arbre), couper, attaquer, frapper
+N1;伯;ハク -;;chef, comte, oncle, Brésil
+N1;伴;ハン;ともな .う;accompagner, amener avec soi, conjoint, compagnon
+N1;但;タン;ただ.し;pourtant, mais
+N1;佐;サ -;;aide, assistance
+N1;佳;カ -;;excellent, bon, bien, habile
+N1;併;ヘイ;あわ.せる;relier, joindre, unir, simultané
+N1;侍;ジ,シ;さむらい,はべ.る;samuraï, serviteur, servir
+N1;侮;ブ;あなど .る;mépriser, traiter de haut, dédain, outrage
+N1;侯;コウ -;;seigneur, daimyo
+N1;侵;シン;おか.す;intrusion, invasion, entrer sans permission
+N1;俊;シュン -;;perspicace, sage, génie, excellent
+N1;俗;ゾク -;;vulgaire, coutume, manières
+N1;俳;ハイ -;;haïku, acteur
+N1;俵;ヒョウ;たわら;sac, ballot, sac de paille
+N1;俸;ホウ -;;salaire, revenue
+N1;倉;ソウ;くら;entrepôt, magasi n, dépôt
+N1;倣;ホウ;なら.う;copier, imiter
+N1;倫;リン -;;éthique, morale
+N1;倹;ケン;つま.しい,つづまやか;économe, frugal
+N1;偏;ヘン;かたよ .る;partial, biaisé, radical gauche d'un kanji
+N1;偵;テイ -;;espionnage
+N1;偽;ギ,カ;いつわ .る,にせ;mensonge, mentir, contrefaçon
+N1;傍;ボウ;かたわ .ら,そば;à côté de, à proximité, spectateur, observateur, pendant que
+N1;傑;ケツ;すぐ.れる;grandeur, excellence (une personne)
+N1;傘;サン;かさ;parapluie
+N1;催;サイ;もよう .す;sponsor, tenir (une réunion), prendre en charge
+N1;傷;ショウ;きず,いた.む;blessure, entaille, douleur, avoir mal
+N1;僕;ボク;しもべ;je (masculin), moi, mon, serviteur
+N1;僚;リョウ -;;collègue, employé, compagnon
+N1;僧;ソウ -;;prêtre bouddhiste, moine
+N1;儀;ギ -;;cérémonie, rite, manières
+N1;儒;ジュ -;;confucéen
+N1;償;ショウ;つぐな .う;indemnisation, compensation
+N1;充;ジュウ;あ.てる,み.たす;allouer, attribuer, remplir
+N1;克;コク;か.つ;surmonter, gentil, bienveillant, adroitement
+N1;免;メン;まぬか .れる,まぬが .れ る;excuse, licenciement
+N1;典;テン,デン -;;cérémonie, code, règle
+N1;冒;ボウ;おか.す;affronter, défier, faire face à, risquer
+N1;冗;ジョウ -;;superflu, inutile
+N1;冠;カン;かんむり;couronne, inégalable
+N1;冶;ヤ;じ -;fusion, fonte
+N1;准;ジュン -;;quasi -, semi -, associé
+N1;凝;ギョウ;こ.らす,こご.らす;congeler, glacer, raide, être absorbé par
+N1;凡;ボン;およ.そ,すべ.て;médiocre, banal, quelconque
+N1;凶;キョウ -;;méchant, mal, malchance, désastre
+N1;凸;トツ;でこ;convexe, inégal (en parlant d'une surface)
+N1;凹;オウ;くぼ.む,へこ.む,ぼこ;concave, creux
+N1;刀;トウ;かたな,そり;sabre, épée
+N1;刃;ジン,ニン;は,やいば,き.る;lame, épée, tranchant d'une lame
+N1;刈;ガイ,カイ;か.る;moissonner, tailler, couper
+N1;刑;ケイ -;;châtiment, punition, sanction
+N1;削;サク;けず.る,はつ.る,そ.ぐ;tailler, réduire, affûter, supprimer
+N1;剖;ボウ -;;dissection, vivisection
+N1;剛;ゴウ -;;ferme, robuste, fort
+N1;剣;ケン;つるぎ;sabre, épée, aiguille d'une montre
+N1;剤;ザイ,スイ,セイ;かる,けず.る;médicament, drogue, produit pour ~
+N1;剰;ジョウ;あま.る;surplus, en plus
+N1;創;ソウ,ショウ;つく.る,はじ.める;fondation, genèse
+N1;功;コウ,ク;いさお;réussite, succès, effort
+N1;务;レツ;おと.る;être inférieur à, être pire que
+N1;励;レイ;はげ.む;encourager, pousser à, s'efforcer de
+N1;劾;ガイ -;;censure, enquête criminelle
+N1;勅;チョク;みことのり;décret impérial
+N1;勧;カン,ケン;すす.める;persuader, recommander, conseiller, encourager
+N1;勲;クン;いさお;action méritoire, mérite
+N1;勺;シャク -;;louche, écumoir, unité de mesure (shaku=18ml)
+N1;匁;;もんめ;unité de poids (monme = 3,75 g)
+N1;匠;ショウ;たくみ;artisan, ouvrier
+N1;匿;トク;かくま .う;cacher, dissimuler
+N1;升;ショウ;ます;boîte, unité de volume (masu=1,8L)
+N1;卑;ヒ;いや.しい;modeste, humble, ignoble, lâche, méprisable
+N1;卓;タク -;;table, supérieur, éminent
+N1;博;ハク,バク -;;Docteur (titulaire du doctorat), nombreux, exposition
+N1;即;ソク;つ.く,すなわ .ち;se conformer à, être adapté à, instantané, immédiatement
+N1;却;キャク;かえ.って,しりぞ .く;à l'inverse, au contraire, plutôt
+N1;卸;シャ;おろ.す,おろし;vente en gros
+N1;厄;ヤク -;;désastre, malchance
+N1;厘;リン -;;un petit peu, unité de longueur (rin = 0,3 mm), unité monétaire (rin = 0,001 yen)
+N1;厳;ゲン,ゴン;きび.しい,おごそ .か;strict, sévère
+N1;又;ユウ;また;de nouveau, encore, ou bien, de plus
+N1;及;キュウ;およ.ぶ;allonger le bras, s'étendre, aller jusqu'à
+N1;叔;シュク -;;oncle, tante
+N1;变;ジョ;つい.ず,ついで;conférer, raconter, décrire
+N1;句;ク -;;phrase, compteur de haïku, paragraphe
+N1;吉;キチ,キツ;よし;bonne chance, joie, félicitations
+N1;后;コウ,ゴ;きさき;impératrice, reine
+N1;吏;リ -;;fonctionnaire, employé
+N1;吐;ト;は.く,つ.く;cracher, vomir, mentir, avouer
+N1;吟;ギン -;;réciter, chanter, versifier
+N1;呂;ロ,リョ -;;colonne vertébrale, épine dorsale
+N1;呈;テイ -;;afficher, offrir, présenter
+N1;呉;ゴ;く.れる;faire quelque chose pour moi
+N1;哀;アイ;あわ.れ,かな.しい;pitié, compassion, compatir
+N1;哲;テツ;さとし,さとる;philosophie, sagesse
+N1;唄;バイ;うた,うた.う;chanson avec un shamisen (instrument à cordes)
+N1;唇;シン;くちびる;lèvres
+N1;唐;トウ;から;dynastie Tang, Chine
+N1;唯;ユイ,イ;ただ;seulement, simplement, unique
+N1;唱;ショウ;とな.える;chanter, réciter
+N1;啓;ケイ;ひら.く,さと.す;divulguer, ouvrir, dire
+N1;喉;コウ;のど;gorge, voix
+N1;喚;カン;わめ.く;hurler, crier
+N1;喝;カツ -;;rauque, gronder
+N1;喪;ソウ;も;deuil, perte
+N1;嗣;シ -;;héritier, succéder à
+N1;嘆;タン;なげ.く;se lamenter, gémir, chagrin, peine
+N1;嘱;ショク;しょく .する,たの.む;confier, demander
+N1;噴;フン;ふ.く;émettre, jailler, éruption
+N1;嚇;カク;おど.かす;menaçant, intimidant, dignité, majesté
+N1;囚;シュウ;とら.われる;criminel, prisonnier, arrêter, attraper
+N1;圏;ケン;かこ.い;sphère, cercle, rayon
+N1;坑;コウ -;;mine, carrière, fosse, trou
+N1;坪;ヘイ;つぼ;unité de surface (tsubo = 3,306 m² = 2 tatamis)
+N1;垂;スイ;た.れる;suspendre, pendre
+N1;垣;エン;かき;haie, clôture, mur
+N1;執;シツ,シュウ;と.る;tenace, s'emparer de, saisir
+N1;培;バイ;つちか .う;culture agricole, cultiver
+N1;堀;クツ;ほり;fossé, douve, tranchée
+N1;堅;ケン;かた.い;dur, solide ,tendu, ferme
+N1;堕;ダ;お.ちる,くず.す;dégénérer, sombrer
+N1;堤;テイ;つつみ;digue, berge
+N1;堪;カン,タン;た.える,たま.る,こ.ら える,こた.える;résister, endurer, supporter
+N1;塀;ヘイ -;;barrière, mur
+N1;塁;ルイ;とりで;base (au base -ball), forteresse, rempart
+N1;塊;カイ,ケ;かたまり,つちくれ;morceau, motte, masse
+N1;塑;ソ;でく;modèle, moulure, plastique
+N1;塚;チョウ;つか;butte de terre, tombe, tertre
+N1;塾;ジュク -;;cours particulier, école privée
+N1;墓;ボ;はか;tombe, tombeau
+N1;墜;ツイ;お.ちる;tomber, s'écraser
+N1;墨;ボク;すみ;encre de Chine, encre noire, pierre d'encre
+N1;墳;フン -;;tombeau, tumulus
+N1;墾;コン -;;défrichage
+N1;壇;ダン,タン -;;estrade, tribune, gradins
+N1;壊;カイ,エ;こわ.す,こわ.れる,や ぶ.る;casser, être cassé, détruire
+N1;壌;ジョウ;つち;parcelle de terrain, sol
+N1;士;シ -;;samuraï, guerrier
+N1;壮;ソウ;さかん;prospérité, robuste, grandiose
+N1;壱;イチ,イツ;ひとつ;un, 1
+N1;奈;ナ;いかん;Nara, comment ?, que ?
+N1;奉;ホウ,ブ;たてまつ .る,まつ.る,ほう.ずる;obéir, suivre, dédier, consacrer, vouer, offrance
+N1;奏;ソウ;かな.でる;jouer d'un instrument de musique, concert
+N1;契;ケイ;ちぎ.る;promesse, serment
+N1;奔;ホン;はし.る;courir, s'agiter, s'affairer
+N1;奨;ショウ,ソウ;すす.める;encourager, conseiller vivement
+N1;奪;ダツ;うば.う;dérober, s'approprier, s'emparer
+N1;奮;フン;ふる.う;excitation, stimulation, déployer son énergie
+N1;奴;ド;やつ,やっこ;mec, type, esclave
+N1;如;ジョ,ニョ;ごと.し;ressemblant, similaire, comme si, comme, le même que
+N1;妃;ヒ;きさき;reine, princesse
+N1;妄;モウ,ボウ;みだ.りに;illusion, imprudence, sans autorisation
+N1;妅;ニン;はら.む,みごも .る;tomber enceinte, grossesse
+N1;妙;ミョウ;たえ;délicat, subtil, étrange, bizarre, adroit, excellent
+N1;妥;ダ -;;doux, calme, tranquille, approprié
+N1;妨;ボウ;さまた .げる;déranger, empêcher, obstruer, entraver
+N1;姫;キ;ひめ;princesse
+N1;姻;イン -;;conjugal, mariage
+N1;姿;シ;すがた;silhouette, apparence, forme
+N1;威;イ;おど.す;intimidant, puissance, menacer
+N1;娯;ゴ -;;loisir, distraction, divertissement
+N1;婆;バ;ばば,ばあ;vieille femme, grand -mère
+N1;婿;セイ;むこ;fiancé, marié, gendre
+N1;媒;バイ -;;intermédiaire, médiateur
+N1;媛;エン;ひめ;belle femme, princesse
+N1;嫁;カ;よめ,とつ.ぐ,い.く;entrer dans une famille, mariage, mariée
+N1;嫌;ケン,ゲン;きら.い,いや;détester, haïr
+N1;嫡;チャク,テキ -;;légitime (enfant, femme)
+N1;嬢;ジョウ;むすめ;jeune fille, mademoiselle
+N1;孔;コウ;あな;cavité, trou, fente
+N1;孝;コウ,キョウ -;;piété filiale, respect des anciens
+N1;孤;コ -;;orphelin, seul
+N1;宗;シュウ,ソウ;むね;religion, confession religieuse, secte
+N1;宜;ギ;よろ.しい;convenable, bon, bien
+N1;宠;セン;のたま .う;proclamer, annoncer
+N1;宮;キュウ,グウ;みや;palais, sanctuaire shinto
+N1;宰;サイ -;;diriger, superviser, Premier Ministre, directeur
+N1;宴;エン;うたげ;banquet, fête
+N1;宵;ショウ;よい;en pleine nuit, soirée, heures tardives
+N1;寂;ジャク,セキ;さび.しい,さみ.しい;solitude, seul, tranquillité
+N1;密;ミツ;ひそ.か;secret, densité de population, minutieux
+N1;寛;カン;くつろ .ぐ,ひろ.い;tolérant, indulgent générosité, être à l'aise
+N1;寡;カ -;;très peu, minorité, veuve
+N1;寧;ネイ;むし.ろ;plutôt, assez, de préférence
+N1;審;シン;つまび .らか,つぶさ .に;procès, jugement, audience (devant la cour)
+N1;寮;リョウ -;;dortoir, foyer, pavillon
+N1;寸;スン -;;dimension, mesure, unité de longueur (3,03 cm)
+N1;寿;ジュ,ス,シュウ;ことぶき,ことぶ .く;longévité, félicitation
+N1;射;シャ;い.る;tirer une flèche
+N1;尉;イ,ジョウ -;;officier, geôlier, rang
+N1;尋;ジン;たず.ねる;demander, interroger, rechercher
+N1;尚;ショウ;なお;de plus, davantage, respecter, vénérer
+N1;就;シュウ,ジュ;つ.く,つ.ける;prendre place, s'installer, prendre un poste, concernant
+N1;尺;シャク -;;mesure, unité de longueur (30,303 cm)
+N1;尼;ニ;あま;religieuse, nonne
+N1;尽;ジン,サン;つ.くす,ことごと .く,つか;épuiser, consommer, arriver au bout, entièrement
+N1;尾;ビ;お;queue, bout
+N1;尿;ニョウ -;;urine
+N1;屈;クツ;かが.む;céder, se courber, soumettre
+N1;属;ゾク,ショク;さかん,つく,やから;faire partie de, affilié à
+N1;履;リ;は.く;chausser, chaussures, expérience
+N1;屯;トン -;;caserne, poste de police, garnison
+N1;岐;キ,ギ -;;bifurcation, embranchement
+N1;岬;コウ;みさき;cap, pointe, promontoire
+N1;岳;ガク;たけ;montagne, pic
+N1;峠;;とうげ;sommet d'une montagne, crête
+N1;峡;キョウ,コウ;はざま;gorge, ravin, vallée étroite
+N1;峰;ホウ;みね;pic, sommet, pointe (d'une montagne)
+N1;崇;スウ;あが.める;respecter, vénérer, honorer, adorer
+N1;崩;ホウ;くず.れる;s'effondrer, se désagréger, s'écrouler
+N1;嵐;ラン;あらし;tempête
+N1;巡;ジュン;めぐ.る,めぐ.り;tourner autour, faire le tour, patrouiller
+N1;巣;ソウ;す;nid, tanière, antre, ruche, toile (d'araignée)
+N1;巧;コウ;たく.み,うま.い;habile, adroit, doué
+N1;己;コ,キ;おのれ;soi-même, soi
+N1;帄;ハン;ほ;voile
+N1;帝;テイ;みかど;Empereur, souverain, Mikado
+N1;帥;スイ -;;commandant des troupes, gouverneur
+N1;帳;チョウ;とばり;cahier, livre de compte, registre
+N1;幕;マク,バク;とばり;rideau de scène, acte théâtrale
+N1;幣;ヘイ;ぬさ;espèce (argent), offrande shinto, don, mauvaise habitude
+N1;幹;カン;みき;tronc d'arbre, partie principale
+N1;幻;ゲン;まぼろし;vision, illusion, apparition
+N1;幽;ユウ;かす.か;obscur, isolé, profond, reclus, calme
+N1;序;ジョ;つい.で,ついで;ordre, priorité, séquence
+N1;庶;ショ -;;peuple, roturier, tout, bâtard
+N1;庸;ヨウ -;;banal, commun, ordinaire, travail
+N1;廃;ハイ;すた.れる;abolition, abrogation, devenir obsolète, abandonner
+N1;廉;レン;かど;bonne affaire, bon marché, honnête, intègre, méfiance
+N1;廊;ロウ -;;couloir, gallerie
+N1;廷;テイ -;;tribunal, cour de justice, cour impériale
+N1;弁;ベン,ヘン;わきま .える,わ.ける;dialecte, éloquence, discernement
+N1;弊;ヘイ -;;mal, abus, méfait, vice
+N1;弐;ニ,ジ;ふた.つ;deux, second
+N1;弓;キュウ;ゆみ;arc
+N1;弔;チョウ;とむら .う,とぶら .う;condoléances, deuil, funérailles
+N1;弥;ミ,ビ;いや,や;de plus en plus, d'autant plus
+N1;弦;ゲン;つる;corde d'arc, corde
+N1;弧;コ -;;arc, arche
+N1;弾;ダン,タン;はず.む;boulet, rebond, claquement
+N1;彩;サイ;いろど .る;colorer, peindre, maquiller
+N1;彫;チョウ;ほ.る;graver, sculpter, ciseler
+N1;彰;ショウ -;;évident, manifeste, clair
+N1;影;エイ;かげ;ombre portée, silouhette
+N1;往;オウ;い.く,ゆ.く;aller, venir, voyage
+N1;征;セイ -;;asservir, conquête, campagne militaire
+N1;径;ケイ;みち,こみち;diamètre, chemin, méthode
+N1;徐;ジョ;おもむ .ろに;petit à petit, doucement, posément
+N1;従;ジュウ;したが .う;se conformer à, obéir à, être accompagné de, subjuguer
+N1;循;ジュン -;;consécutif, séquentiel, cycle
+N1;微;ビ;かす.か;délicat, subtil, insignifiant, léger, à peine visible
+N1;徳;トク -;;vertu, bonté, morale impôt, d'une taxe)
+N1;徹;テツ -;;toute la nuit, nuit blanche, lucide, pénétrer
+N1;忌;キ;い.む;deuil, anniversaire du décès, répugnant
+N1;忍;ニン;しの.ぶ;endurer, supporter, espion, entrer furtivement
+N1;忠;チュウ -;;loyauté, fidélité
+N1;怠;タイ;おこた .る,なま.ける;négliger, paresse, fainéantise
+N1;怪;カイ,ケ;あや.しい,あや.しむ;méfiant, se méfier de, mystère, apparition
+N1;恒;コウ;つね;permanent, constant
+N1;恨;コン;うら.む,うら.めしい;regret, ressentiment, rancœur, haine
+N1;恩;オン -;;gentillesse, bonté, bienfait
+N1;恭;キョウ;うやうや .しい;respectueux
+N1;悔;カイ;く.いる,く.やむ;regret, repentir
+N1;悟;ゴ;さと.る;éclaircissement, percevoir, discerner, comprendre
+N1;悦;エツ;よろこ .ぶ;extase, joie
+N1;悼;トウ;いた.む;deuil, commémoration funèbre, avoir de la peine, déplorer
+N1;惑;ワク;まど.う;charmer, séduire, égarement, confusion, perplexité
+N1;惜;セキ;お.しい,お.しむ;déplorable, regrettable, économiser, épargner
+N1;惨;サン,ザン;みじ.め,いた.む,むご.い;infortuné, affreux, misérable
+N1;惰;ダ -;;paresse
+N1;愁;シュウ;うれ.える;désarroi, souffrance, tristesse, être anxieux
+N1;愉;ユ;たの.しむ;apprécier, prendre plaisir à, agréable, joyeux
+N1;愚;グ;おろ.か;stupide, absurbe, idiot, bête
+N1;慈;ジ;いつく .しむ;clémence, miséricorde
+N1;態;タイ;わざ.と;apparence, état, condition
+N1;慌;コウ;あわ.ただしい;déconcerté, confus
+N1;慎;シン;つつし .む;humilité, discrétion, prudent, être précautionneux
+N1;慕;ボ;した.う;désir ardent, envie, amour
+N1;慢;マン -;;ridicule, paresseux, prétentieux
+N1;慨;ガイ -;;regret, triste, soupir, lamentation
+N1;慮;リョ;おもんぱか .る;considérer, prudence, sollicitation, idée, pensée, peur
+N1;慰;イ;なぐさ .める;réconforter, consoler
+N1;慶;ケイ;よろこ .び;se réjouir de, jubiler, féliciter
+N1;憂;ユウ;うれ.える,う.い;tristesse, chagrin, mélancolie, anxieux
+N1;憤;フン;いきどお .る;indignation, colère, rancune
+N1;憧;ショウ,ドウ;あこが .れる;aspiration, désir, attentes, admirer
+N1;憩;ケイ;いこ.う;vacances, pause, se reposer
+N1;憲;ケン -;;constitution, loi
+N1;憶;オク -;;souvenir, mémoire
+N1;憾;カン;うら.む;remords, regrets, être désolé
+N1;懇;コン;ねんご .ろ;sociable, gentil, courtois
+N1;懐;カイ,エ;ふところ,なつ.かしい,いだ.く,おも.う;poche, sentiments, nostalgie, s'attacher à, poitrine
+N1;懲;チョウ;こ.りる;punir, corriger, châtiment, apprendre par l'expérience, tirer des leçons
+N1;懸;ケン,ケ;か.ける;suspendre, accrocher, dépendre de
+N1;我;ガ;われ,わ;je, moi, égoïsme
+N1;戒;カイ;いまし .める;châtiment, avertissement
+N1;戯;ギ,ゲ;たわむ .れる,ざ.れる;batifoler, divertissement, jeu, sport
+N1;房;ボウ;ふさ;chauffage, climatisation, grappe, frange, épouse, chambre
+N1;扇;セン;おうぎ;éventail
+N1;扉;ヒ;とびら;porte d'entrée, page de titre
+N1;扱;ソウ,キュウ;あつか .い,あつか .う,こ.く;manœuvrer, prendre en main
+N1;扶;フ;たす.ける;aider, assister
+N1;抄;ショウ -;;extraire, sélectionner, résumé, copie paquets
+N1;抑;ヨク;おさ.える;réprimer, retenir, saisir, presser
+N1;抗;コウ;あらが .う;affronter, faire face à, s'opposer à, défier
+N1;択;タク;えら.ぶ;choisir, sélectionner
+N1;披;ヒ -;;exposer, révéler, ouvrir son cœur
+N1;抵;テイ -;;résister, s'opposer
+N1;抹;マツ -;;frotter, enduire, effacer
+N1;抽;チュウ;ひき;cueillir, extraire, tirer
+N1;拍;ハク,ヒョウ -;;applaudir, temps (mesure en musique), battement (du cœur)
+N1;拐;カイ -;;kidnapper, falsifier
+N1;拒;キョ,ゴ;こば.む;refuser, rejeter, décliner
+N1;拓;タク;ひら.く;défricher, conquête d'un terrain
+N1;拘;コウ;かか.わる;arrêter, saisir, être concerné, adhérer
+N1;拙;セツ;つたな .い;incompétent, maladroit, bâclé
+N1;拠;キョ,コ;よ.る;point d'appui, basé sur, suivre, par conséquent
+N1;括;カツ;くく.る;attacher, lier, arrêter, comprimer
+N1;拳;ケン,ゲン;こぶし;poing
+N1;拷;ゴウ -;;torturer, tabasser
+N1;挑;チョウ;いど.む;défier, provoquer, rivaliser
+N1;挙;キョ;あ.げる,あ.がる;actions, citer, être cité, être arrêté さしはさ .む pincement, pincer, être coincé, être pris entre deux
+N1;振;シン;ふ.る,ぶ.る;secouer, agiter, remuer
+N1;挿;ソウ;さ.す;greffer, mettre dans, insérer
+N1;据;キョ;す.える,す.わる;poser, installer, établir, s'asseoir
+N1;掌;ショウ;てのひら,たなごころ;paume de la main, manipuler, gouverner
+N1;排;ハイ -;;rejeter, désavouer, exclure
+N1;控;コウ;ひか.える;retirer, renoncer à, retenir, se modérer
+N1;推;スイ;お.す;présumer, supposer, deviner
+N1;措;ソ;お.く;poser, mettre de côté, suspendre, abandonner
+N1;掲;ケイ;かか.げる;publier, afficher, hisser (un drapeau), insertion
+N1;描;ビョウ;えが.く,か.く;dessiner, écrire, peindre
+N1;提;テイ,チョウ,ダイ;さ.げる;proposition, tenir en main
+N1;揚;ヨウ;あ.げる;hisser (un drapeau, une voile, un objet lourd), frire
+N1;握;アク;にぎ.る;s'agripper, tenir, pétrir (sushi)
+N1;揮;キ;ふる.う;brandir, agiter
+N1;援;エン -;;aide, assistance
+N1;揺;ヨウ;ゆ.れる;secouer, frémir, osciller, vibrer
+N1;搬;ハン -;;transporteur, convoyeur
+N1;搭;トウ -;;embarquer, monter dans un véhicule apporter
+N1;搾;サク;しぼ.る;presser, compresser
+N1;摂;セツ;と.る;prendre (des vitamines, un repas…), ingérer, substitut, interposé
+N1;摘;テキ;つ.む;prendre quelque chose avec ses doigts, cueillir, saisir
+N1;摩;マ;ま.する,さ.する,す.る;gratter, frotter (pour soulager), caresser, polir
+N1;撃;ゲキ;う.つ;attaquer, frapper, battre
+N1;撤;テツ -;;enlever, retirer, abandonner, rejeter
+N1;撮;サツ;と.る,つま.む;photographier
+N1;撲;ボク -;;battre, frapper, donner un coup
+N1;擁;ヨウ -;;posséder, protéger, prendre dans ses bras, étreindre
+N1;擦;サツ;す.る,す.れる,こす.る;gratter, frotter, abraser
+N1;擬;ギ;まが.い,もど.き;imitation, pointer une arme, nommer
+N1;攻;コウ;せ.める;agression, attaque
+N1;敏;ビン;さとい;ingéniosité, agile, vif d'esprit
+N1;敢;カン;あ.えて;audacieux, triste, tragique, pitoyable
+N1;敵;テキ;かたき,かな.う;adversaire, ennemi
+N1;敶;フ;し.き,し.く;s'étendre, s'étaler, s'asseoir
+N1;斉;セイ,サイ;ひと.しい;égal, semblable, même variété み, い.む, いわ.う, い つ.く purification, nourriture bouddhique, consacrer, avoir le culte de
+N1;斗;ト -;;Grande Ourse, tonnelet de saké, unité de volume (1 to = 18,039 litres)
+N1;斜;シャ;なな.め,はす;diagonale, en pente, oblique
+N1;斤;キン -;;hache, unité de mesure (kin = environ 600g)
+N1;斥;セキ;しりぞ .ける;repousser, rejeter
+N1;施;シ,セ;ほどこ .す;aumône, donner, poser une bandage
+N1;旋;セン -;;rotation, tournoiement
+N1;旗;キ;はた;drapeau, étendard
+N1;既;キ;すで.に;déjà, auparavant
+N1;旦;タン,ダン;あきら;aube, aurore, matin
+N1;旨;シ;むね,うま.い;délicieux, savoureux, adroit, expert, avoir un penchant pour
+N1;旪;ジュン,シュン -;;décade, période de 10 jours
+N1;昆;コン -;;insecte, descendant
+N1;昭;ショウ -;;brillant, clair, lumineux
+N1;晶;ショウ -;;cristal, étinceler, clair
+N1;暁;ギョウ,キョウ;あかつき;aube, point du jour
+N1;暇;カ;ひま,いとま;temps libre, repos, loisirs
+N1;暦;レキ;こよみ;calendrier, almanach
+N1;暫;ザン;しばら .く;un moment, temporaire
+N1;曹;ソウ,ゾウ;つかさ;élève officier, cadet, sous -officier
+N1;朕;チン -;;le nous impérial
+N1;朗;ロウ;ほが.らか,あき.らか;brillant, serein, joyeux
+N1;朱;シュ;あけ;vermillon, écarlate, rouge
+N1;朴;ボク;ほお,えのき;honnête, simple, ingénu
+N1;朽;キュウ;く.ちる;délabré, pourri
+N1;杉;サン;すぎ;cèdre japonais
+N1;松;ショウ;まつ;pin
+N1;析;セキ -;;couper, diviser, déchirer, analyser
+N1;枞;;わく;structure, cadre, bobine
+N1;枢;スウ,シュ;くるる;pivot, axe, charnière
+N1;架;カ;か.ける;ériger, monter, supporter (poids), étagère
+N1;柄;ヘイ;がら,え,つか;caractère (d'une personne), motif, marque, manivelle, poignée
+N1;某;ボウ;それがし,なにがし;untel, cette personne, un certain
+N1;染;セン;そ.める;teindre, colorer, tâche, souillure
+N1;柳;リュウ;やなぎ;saule
+N1;栓;セン -;;bouchon, robinet
+N1;株;シュ;かぶ;action boursière, souche d'un arbre, titre
+N1;核;カク -;;noyau, nucléaire, cœur
+N1;栽;サイ -;;plantation
+N1;桃;トウ;もも;pêche (fruit)
+N1;桑;ソウ;くわ;mûrier
+N1;桜;オウ;さくら;cerisier
+N1;桟;サン,セン;かけはし;échafaudage, traverse, pont, quai
+N1;梅;バイ;うめ;prune, prunier
+N1;梨;リ;なし;poire
+N1;棄;キ;す.てる;jeter, se débarasser, renoncer
+N1;棋;キ;ご;pièce d'échec, échec japonais, shôgi
+N1;棚;ホウ;たな;étagère, rayon, support
+N1;棟;トウ;むね;bâtiment, partie la plus haute d'un bâtiment
+N1;棺;カン -;;cercueil
+N1;椎;ツイ -;;vertèbre, marteau, maillet
+N1;楼;ロウ -;;tour de guet, immeuble
+N1;槽;ソウ;ふね;cuve, bac, réservoir
+N1;模;モ,ボ -;;imitation, copie, maquette
+N1;樹;ジュ;き;arbre, végétation
+N1;欄;ラン -;;colonne dans un tableau ou dans un journal, champ (dans un formulaire), balustrade
+N1;欺;ギ;あざむ .く;tromperie, tricherie, malhonnêteté
+N1;款;カン -;;bonne volonté, article, section
+N1;歓;カン;よろこ .ぶ;plaisir, joie, se ravir
+N1;殉;ジュン -;;martyre, calvaire, se sacrifier
+N1;殊;シュ;こと;en particulier, spécialement
+N1;殖;ショク;ふ.える,ふ.やす;augmenter, croître, multiplier
+N1;殴;オウ;なぐ.る;attaque, assaut, frapper, battre
+N1;殻;カク,コク,バイ;から,がら;coquille, enveloppe (de grain)
+N1;氏;シ;うじ;nom de famille, lignée, Monsieur
+N1;汁;ジュウ;しる,つゆ;soupe, jus, bouillon
+N1;江;コウ;え;baie, crique, anse
+N1;汰;タ -;;sélection
+N1;汽;キ -;;vapeur
+N1;沖;チュウ;おき,おきつ,ちゅう .す る;haute mer, au large
+N1;沙;サ,シャ;すな;sable
+N1;没;ボツ,モツ;おぼ.れる,しず.む;sombrer, couler, mourir, disparaître
+N1;沢;タク;さわ;marais, marécage, abondant
+N1;沼;ショウ;ぬま;marécage, marais, étang
+N1;沿;エン;そ.う;longer, border, être parallèle à
+N1;泋;ヒ,ヒツ -;;suinter, s'écouler, sécréter
+N1;泡;ホウ;あわ;bulle, mousse, écume
+N1;泰;タイ -;;calme, paisible, Thaïlande
+N1;洞;ドウ;ほら;grotte, caverne, antre
+N1;津;シン;つ;port, refuge, havre
+N1;洪;コウ -;;inondation, déluge
+N1;派;ハ -;;faction, groupe, clan
+N1;浄;ジョウ,セイ;きよ.める;nettoyer, purifier
+N1;浜;ヒン;はま;rivage, plage
+N1;浦;ホ;うら;baie, crique, golfe, rivage
+N1;浪;ロウ -;;itinérant, vagabond, vague, flot
+N1;浸;シン;ひた.す;plonger, immerger, mouillé, humide
+N1;涯;ガイ;はて;horizon, rivage, côte
+N1;涼;リョウ;すず.しい;frais, rafraîchissant
+N1;淑;シュク;しと.やか;gracieux, pur
+N1;淡;タン;あわ.い;mince, pâle, léger, dilué
+N1;添;テン;そ.える,も.える;accompagner, annexer, ajouter, se marier, imiter
+N1;渇;カツ;かわ.く;avoir soif, soif, sécheresse
+N1;渉;ショウ;わた.る;gué, port, traverser
+N1;渋;ジュウ,シュウ;しぶ.い,しぶ.る astringent,resserré,peu;enthousiaste, hésiter
+N1;渓;ケイ;たに,たにがわ;torrent, ruisseau de montagne, vallée
+N1;渚;ショ;なぎさ;bord de mer, plage, rivage
+N1;渦;カ;うず;tourbillon, remous
+N1;湧;ユウ;わ.く;faire bouillir, bouillir, jaillir
+N1;源;ゲン;みなもと;source, origine, fondement
+N1;溝;コウ;みぞ;gouttière, caniveau, égout, 10^32
+N1;滋;ジ -;;noutrissant, luxuriant, de plus en plus
+N1;滑;カツ,コツ;すべ.る,なめ.らか;glissant, glisser
+N1;滝;ロウ,ソウ;たき;chute d'eau, cascade
+N1;滞;タイ;とどこお .る;stagner, en retard, arriérés
+N1;漂;ヒョウ;ただよ .う;dériver, flotter
+N1;漆;シツ;うるし;vernis, laque
+N1;漏;ロウ;も.る;fuite (d'eau, dans un toît, d'information), s'échapper (gaz)
+N1;漠;バク -;;confus, vaste, sans fin, désert
+N1;漫;マン;そぞ.ろ;manga, dérision, débordant (imagination), impatient, nerveux
+N1;漬;シ;つ.ける;tremper, mariner, saumure
+N1;漸;ゼン;やや;un petit moment, quelque peu, progressivement
+N1;潔;ケツ;いさぎよ .い;brave, innocent, pur, immaculé
+N1;潜;セン;ひそ.む,くぐ.る;s'embusquer, se cacher, s'immerger
+N1;潟;セキ;かた;lagon
+N1;潤;ジュン;うるお .う,うる.む;mouiller, tremper, prospérer, charmer
+N1;潮;チョウ;しお;sel, eau salée
+N1;澄;チョウ;す.む;clarté, lucidité, s'éclaircir
+N1;激;ゲキ;はげ.しい;violent, enragé, s'énerver
+N1;濁;ダク,ジョク;にご.る;sale, impropre, salir
+N1;濫;ラン;みだ.りに;débordement, excès, sans autorisation
+N1;瀬;ライ;せ;torrent, courant, rapides
+N1;災;サイ;わざわ .い;désastre, malheur
+N1;炊;スイ;た.く;cuisiner, faire cuire
+N1;炋;エン;ほのお;inflammation, flamme, incendie
+N1;為;イ;ため,な.る,す.る,た り,つく.る;pour, changer, faire
+N1;烈;レツ;はげ.しい;ardent, violent, véhément, sévère
+N1;焦;ショウ;こ.げる,あせ.る;brûler, carboniser, impatient, pressé
+N1;煩;ハン;わずら .う,うるさ .い;énervant, ennuyeux, bruyant, nuisance
+N1;煮;シャ;に.る;porter à ébullition, bouillir, mijoter, cuisiner
+N1;熟;ジュク;う.れる;arrivé à maturité, mûrir
+N1;爵;シャク -;;baron, rang à la cour
+N1;爽;ソウ;さわ .やか;rafraîchissant, vivifiant, tonifiant
+N1;牧;ボク;まき;pâturage, élevage
+N1;牲;セイ -;;sacrifice, offrande
+N1;犠;ギ,キ;いけにえ;sacrifice
+N1;狂;キョウ;くる.う,くる.おしい;folie, fou, insensé
+N1;狩;シュ;か.る;attaquer, chasser, poursuivre
+N1;猛;モウ -;;féroce, sauvage, intense, acharné
+N1;猟;リョウ -;;chasse, tir
+N1;献;ケン,コン;たてまつ .る;don, offrande, offrir, compteur pour les boissons
+N1;猶;ユウ,ユ;なお;de plus, encore
+N1;猿;エン;さる;singe
+N1;獄;ゴク -;;prison
+N1;獣;ジュウ;けもの,けだもの;animal, bête
+N1;獲;カク;え.る;capturer, obtenir, acquérir, prise
+N1;玄;ゲン -;;mystérieux, occulte
+N1;珠;シュ;たま;joyau, gemme, perle
+N1;班;ハン -;;équipe, groupe
+N1;琴;キン;こと;koto (harpe japonais), harpe
+N1;瑠;ル -;;lapis lazuli
+N1;璃;リ -;;translucide, lapis lazuli
+N1;璽;ジ -;;sceau impérial
+N1;甚;ジン;はなは .だ;extrêmement, excessivement
+N1;甲;コウ,カン,カ;きのえ;carapace, armure, première classe
+N1;畔;ハン;あぜ,くろ,ほとり;digue d'une rizière, rebord (d'un point d'eau)
+N1;畝;ボウ,ホ,モ,ム;せ,うね;sillon, unité de volume (se=100m²), arête, crête
+N1;畳;ジョウ,チョウ;たた.む,たたみ,かさ.なる;tatami, compteur pour les tatamis, plier, fermer
+N1;疎;ソ,ショ;うと.む,まば.ら;négligence, aliénation, éviter, clairsemé, épars
+N1;疫;エキ,ヤク -;;épidémie
+N1;疾;シツ;はや.い;rapidité, maladie
+N1;症;ショウ -;;symptôme, maladie
+N1;痘;トウ -;;variole, vérole
+N1;痢;リ -;;diarrhée
+N1;痴;チ;おろか;idiot, stupide
+N1;癖;ヘキ;くせ;trait de caractère, manie, mauvaise habitude, frisé
+N1;皇;コウ,オウ -;;Empereur
+N1;盆;ボン -;;fête des Lanternes (o -bon), bassin (géographique), plateau
+N1;益;エキ,ヤク;ま.す;bénéfice, avantage
+N1;盛;セイ,ジョウ;も.る,さか.る,さか.ん;actif, prospère, florissant
+N1;盟;メイ -;;pacte, alliance, serment
+N1;監;カン -;;superviser, administrer, officiel, bureau gouvernemental
+N1;盤;バン -;;plateau, base, échiquier de Go, disque, bassin
+N1;盲;モウ;めくら;aveugle, ignorant, cécité
+N1;盾;ジュン;たて;bouclier, écu, prétexte
+N1;眉;ビ,ミ;まゆ;sourcil
+N1;眺;チョウ;なが.める;contempler, regarder, fixer, voir
+N1;眼;ガン,ゲン;まなこ,め;globe oculaire, œil
+N1;督;トク -;;commander, superviser, diriger
+N1;睦;ボク;むつ .ぶ;amical, harmonieux, être proche, être intime
+N1;瞬;シュン;またた .く;clin d'œil, cligner des yeux, scintiller, pétiller (yeux)
+N1;瞭;リョウ;あきら .か;clair, évident, apparent
+N1;瞳;ドウ;ひとみ;pupille de l'œil
+N1;矛;ム;ほこ;hallebarde, lance
+N1;矢;シ;や;flèche
+N1;矯;キョウ;た.める;rectifier, redresser, corriger, guérir, falsifier
+N1;砕;サイ;くだ.く;fracasser, briser, familier (informel)
+N1;砲;ホウ -;;canon, fusil
+N1;硝;ショウ -;;nitrate, salpêtre
+N1;硫;リュウ -;;soufre
+N1;碁;ゴ -;;jeu de Go
+N1;碑;ヒ;いしぶみ;pierre tombale, monument
+N1;磁;ジ -;;magnétisme, aimant, porcelaine
+N1;礁;ショウ -;;récif, écueil
+N1;礎;ソ;いしずえ;pierre angulaire, fondement, base
+N1;祉;シ -;;bien -être, bonheur
+N1;祥;ショウ;さいわ .い;bonne chance, bonheur
+N1;票;ヒョウ -;;bulletin, ticket, vote
+N1;禅;ゼン -;;zen, méditation
+N1;禍;カ;わざわい;calamité, malchance, mal
+N1;秀;シュウ;ひい.でる;exceller, surpasser, excellence
+N1;秘;ヒ;ひ.める,ひそ.か,かく.す;tenir un secret, cacher
+N1;租;ソ -;;taxe, emprunt, impôt
+N1;秩;チツ -;;ordre, régularité, salaire
+N1;称;ショウ;たた.える,とな.える,あ.げる,かな.う,はか.る,ほめ.る;admirer, éloge, renommée, appeler, nommer
+N1;稚;チ;いとけない,おさない;puéril, jeune, immature
+N1;稲;トウ,テ;いね;plant de riz
+N1;稼;カ;かせ.ぐ;revenu, travail, gagner de l'argent
+N1;稿;コウ;わら,したがき;brouillon, copie, manuscrit
+N1;穀;コク -;;grain, céréale
+N1;穁;スイ;ほ;épi, pointe
+N1;穏;オン;おだ.やか;calme, tranquille, modéré
+N1;穴;ケツ;あな;trou, orifice, grotte, tanière
+N1;窃;セツ;ぬす.む;voler, dérober
+N1;窒;チツ -;;obstruer, suffoquer, azote
+N1;窮;キュウ,キョウ;きわ.める;fauché, sans ressource, perplexe, acculé
+N1;窯;ヨウ;かま;four à poterie, fourneau, fournaise
+N1;竜;リュウ,リョウ;たつ;dragon, impérial
+N1;端;タン;はし;bord, pointe, bordure, extrémité
+N1;笛;テキ;ふえ;flûte, pipeau, sifflet
+N1;筋;キン;すじ;muscle, tendon, intrigue, raison
+N1;策;サク -;;stratégie, plan, politique
+N1;箇;カ,コ -;;compteur pour les choses ou les articles
+N1;範;ハン -;;modèle, motif, exemple
+N1;篤;トク;あつ.い;ardent, gentil, cordial, sérieux, délibéré
+N1;簿;ボ -;;livre de compte, registre administratif
+N1;粋;スイ;いき;élégant, chic, stylé, pureté
+N1;粗;ソ;あら.い;grossier, rude
+N1;粘;ネン;ねば.る;collant, adhésif, gluant, persévérer, persister
+N1;粙;シュク,スク;つつし .む;solennel, formel, doucement, calmement
+N1;粧;ショウ -;;cosmétique, se maquiller
+N1;糖;トウ -;;sucre
+N1;糧;リョウ,ロウ;かて;provision, ration, vivre
+N1;系;ケイ -;;système, lignée, descendance
+N1;糾;キュウ;ただ.す;entortiller, demander, enquêter, vérifier
+N1;紀;キ -;;narration, chronique, histoire
+N1;紋;モン -;;armoirie, écusson, motif, ligne
+N1;納;ノウ,ナ,ナン,トウ;おさ.める;régler, fournir, payer, être acquitté
+N1;紛;フン;まぎ.れる;s'emmêler, se mélanger, s'égarer, confusion
+N1;素;ソ,ス;もと;élément, principe, nu, découvert
+N1;紡;ボウ;つむ.ぐ;filage, filature (de textile)
+N1;索;サク -;;fil, corde
+N1;紫;シ;むらさき;violet
+N1;累;ルイ -;;accumuler, amasser, progressif, implication,
+N1;紳;シン -;;gentleman, sire
+N1;紺;コン -;;bleu marine
+N1;絞;コウ;しぼ.る,し.める;comprimer, étrangler, serrer
+N1;統;トウ;す.べる,ほび.る;gouverner, diriger, régner
+N1;絹;ケン;きぬ;soie
+N1;継;ケイ;つ.ぐ;hériter, succéder à, relais, greffe (d'un arbre, d'une plante)
+N1;維;イ -;;fibre, corde, cordon
+N1;綱;コウ;つな;aussière (cordage utilisé pour remorquer les navires), corde, câble
+N1;網;モウ;あみ;filet, réseau
+N1;緊;キン;し.める;tendu, solide, dur, fiable
+N1;締;テイ;し.める;serrer, attacher, lier
+N1;緩;カン;ゆる.い;lâcher, décompresser, desserrer, modéré
+N1;緯;イ;よこいと,ぬき;horizontal, latitude
+N1;縄;ジョウ;なわ,ただ.す;corde, cordage, fibre
+N1;縛;バク;しば.る;attacher, nouer, lier, contrainte
+N1;縦;ジュウ;たて;lâcher, hauteur, vertical
+N1;縫;ホウ;ぬ.う;coudre, recoudre
+N1;縮;シュク;ちぢ.める;se contracter, rétrécir, diminuer, réduire, écourter
+N1;繁;ハン;しげ.る;florissant, prospère, luxuriant, fréquent, complexe
+N1;繊;セン -;;fin, svelte, effilé, kimono léger
+N1;織;ショク,シキ;お.る,おり;tisser, tissu
+N1;繕;ゼン;つくろ .う;réparer, raccomoder, repriser
+N1;繭;ケン;まゆ,きぬ;cocon
+N1;繰;ソウ;く.る;enroulement, bobine, tourner (des pages), feuilleter
+N1;罰;バツ,バチ;ばっ.する;punition, châtiment
+N1;罷;ヒ;まか.り,や.める;abandonner, arrêter, quitter
+N1;羅;ラ;うすもの;soie fine, gaze, Latin (langue)
+N1;羊;ヨウ;ひつじ;mouton
+N1;義;ギ -;;justesse, moralité, loyauté, signification
+N1;翁;オウ;おきな;honorable vieillard
+N1;翻;ホン,ハン;ひるがえ .る;changer de sens, faire flotter (un drapeau), agiter, brandir, se retourner
+N1;翼;ヨク;つばさ;aile, flanc
+N1;耐;タイ;た.える;endurant, résistant, durable, endurer
+N1;耗;モウ,コウ -;;diminuer, baisser
+N1;聖;セイ,ショウ;ひじり;sacré, saint
+N1;聴;チョウ;き.く,ゆる.す;écouter
+N1;肖;ショウ;あやか .る;ressemblance
+N1;肝;カン;きも;foie, courage, audace
+N1;肢;シ -;;membres (bras et jambes)
+N1;肥;ヒ;こ.える,ふと.る;engrais, fertile, fertiliser, grossir
+N1;肪;ボウ -;;graisse, gras, gros
+N1;肺;ハイ -;;poumon
+N1;胆;タン;きも;vésicule biliaire, cran, courage
+N1;胎;タイ -;;utérus, fœtus
+N1;胞;ホウ -;;placenta, poche
+N1;胴;ドウ -;;tronc (du corps), torse, coque (d'un bateau)
+N1;脅;キョウ;おびや .かす,おど.す;contraindre, menacer, forcer
+N1;脈;ミャク;すじ;pouls, veine
+N1;脚;キャク,キャ,カク;あし;jambe, train d'atterissage
+N1;脹;チョウ;は.れる,ふく.らむ;gonfler, enfler, grossir, se dilater
+N1;腐;フ;くさ.る;pourrir, se détériorer, putréfier
+N1;腸;チョウ;はらわた;intestion, entrailles
+N1;膜;マク -;;membrane
+N1;膨;ボウ;ふく.らむ;gonfler, grossir, enfler
+N1;臨;リン;のぞ.む;faire face, assister à, exceptionnel
+N1;臭;シュウ;くさ.い,にお.う;sentir mauvais, malodorant
+N1;至;シ;いた.る;extrême, aboutissement, arriver à
+N1;致;チ;いた.す;faire, causer, envoyer, expédier, engager
+N1;興;コウ,キョウ;おこ.る;intérêt, plaisir, se développer, prospérer
+N1;舌;ゼツ;した;langue (organe)
+N1;舎;シャ,セキ;やど.る;auberge, chaumière, maison
+N1;舗;ホ -;;magasin, boutique
+N1;舶;ハク -;;paquebot, navire
+N1;艇;テイ -;;petit bateau
+N1;艦;カン -;;navire de guerre
+N1;芋;ウ;いも;pomme de terre
+N1;芳;ホウ;かんば .しい;parfum, arôme, fragrance
+N1;芽;ガ;め;pousse, bourgeon
+N1;苗;ビョウ,ミョウ;なえ,なわ;plant, pousse, bourgeon
+N1;茂;モ;しげ.る;s'épaissir (verdure), pousser avec luxuriance
+N1;茎;ケイ,キョウ;くき;tige (d'une fleur), queue (d'un fruit), pied (d'un verre)
+N1;荘;ソウ,ショウ,チャン -;;villa, auberge, maison de campagne
+N1;菊;キク -;;chrysanthème
+N1;菌;キン -;;germe, champignon, moisissure, bactérie
+N1;華;カ,ケ;はな;fleur, pétale, splendeur, magnifique
+N1;葬;ソウ;ほうむ .る;funéraillles, enterrer, inhumer
+N1;蓄;チク;たくわ .える;emmagasiner, stocker, mettre de côté
+N1;薦;セン;すす.める;conseiller, recommander, tapis natté
+N1;薪;シン;たきぎ,まき;combustible, bois de chauffage
+N1;藍;ラン;あい;indigo
+N1;藤;トウ;ふじ;glycine (plante)
+N1;藩;ハン -;;fief, domaine, clan
+N1;藻;ソウ;も;algue, lentille d'eau
+N1;虎;コ;とら;tigre, ivrogne
+N1;虐;ギャク;しいた .げる;opprimer, tyranniser
+N1;虚;キョ,コ;むな.しい,うつ.ろ;vide, fissure, impréparation, contre -vérité
+N1;虜;リョ,ロ;とりこ;captif, esclave, prisonnier
+N1;虞;グ;おそれ,はか.る,あや ま.る;anxiété, malaise, crainte, peur
+N1;虹;コウ;にじ;arc-en-ciel
+N1;蚊;ブン カ;;moustique
+N1;蚕;サン;かいこ,こ;ver à soie
+N1;蛇;ジャ,ダ,イ,ヤ;へび;serpent, grand buveur
+N1;蛍;ケイ;ほたる;ver luisant, luciole
+N1;蛮;バン -;;barbare, sauvage
+N1;融;ユウ;と.ける;fondre, fusionner, dissoudre
+N1;衆;シュウ;おお.い;grand nombre, foule, multitude
+N1;街;ガイ,カイ;まち;avenue, quartier, rue
+N1;衛;エイ,エ -;;défense, protection
+N1;衝;ショウ;つ.く;entrer en collision, impact, point clé, poignarder
+N1;衡;コウ -;;équilibre, balance
+N1;衰;スイ;おとろ .える;décroître, diminuer, s'affaiblir
+N1;衷;チュウ -;;cœur, esprit, profond
+N1;裁;サイ;さば.く,た.つ;juger, tribunal, tailler un vêtement
+N1;裂;レツ;さ.く;déchirer, arracher, fendre
+N1;裕;ユウ -;;riche, abondant, fertile
+N1;裸;ラ;はだか;nu, nudité
+N1;褐;カツ -;;brun, kimono de laine
+N1;褒;ホウ;ほ.める;louer, admirer, faire l'éloge de
+N1;襟;キン;えり;nuque, col, revers
+N1;襲;シュウ;おそ.う,かさ.ね;attaquer, agresser, hériter
+N1;覆;フク;おお.う,くつがえ .る;chavirer, déguiser, dissimuler, recouvrir
+N1;覇;ハ -;;suprématie, hégémonie, domination
+N1;視;シ;み.る;voir, regarder, point de vue, inspection
+N1;覧;ラン;み.る;voir, regarder, prendre connaissance
+N1;訂;テイ -;;correction, révision, édition
+N1;討;トウ;う.つ;débât, châtier, attaquer explication
+N1;託;タク;かこつ .ける,かこ.つ;se plaindre de, prétexter, prétendre, charger quelqu'un de, requête
+N1;訟;ショウ -;;accusation, poursuite judiciaire
+N1;訳;ヤク;わけ;traduire, traduction, sens
+N1;訴;ソ;うった .える;poursuite en justice, plainte, procès, faire appel
+N1;診;シン;み.る;vérifier, ausculter, diagnostic médical, bilan de santé
+N1;証;ショウ;あかし;certificat, preuve, témoignage
+N1;詐;サ;いつわ .る;mensonge, fraude, décevoir, tromper
+N1;詔;ショウ;みことのり;décret impérial
+N1;詠;エイ;よ.む,うた.う;composer (un poème), récitation, poème
+N1;詩;シ;うた;poésie, poème
+N1;該;ガイ -;;ci-dessus, la chose en question, concerné
+N1;詳;ショウ;くわ.しい,つまび .らか;détaillé, complet, précis, bien informé
+N1;誇;コ;ほこ.る;vantardise, fierté, orgueil
+N1;誉;ヨ;ほま.れ,ほ.める;admirer, louange, réputation, prestige
+N1;誓;セイ;ちか.う;serment, promesse, jurer, prêter serment
+N1;誕;タン -;;naissance
+N1;誘;ユウ,イウ;さそ.う,いざな .う;inviter, demander, séduire, attirer
+N1;誠;セイ;まこと;sincérité, vérité, réalité
+N1;誤;ゴ;あやま .る;faute, erreur, échec, se tromper
+N1;請;セイ,シン,ショウ;こ.う,う.ける;solliciter, inviter, demander
+N1;諭;ユ;さと.す;réprimande, reproche, faire reconnaître, mettre en garde
+N1;諮;シ;はか.る;consulter, demander conseil
+N1;諾;ダク -;;accord, consentement
+N1;謀;ボウ;はか.る,たばか .る,は かりごと;conspirer, comploter, stratégie, plan, machination
+N1;謁;エツ -;;audience
+N1;謄;トウ -;;copie, photocopie
+N1;謙;ケン -;;humilité, modestie
+N1;謝;シャ;あやま .る;s'excuser, excuses, remerciements
+N1;謡;ヨウ;うた.う;chanter, chant Noh, chanson
+N1;謹;キン;つつし .む;discret, avant respect, humblement
+N1;譜;フ -;;partition, note, musique, généalogie
+N1;譲;ジョウ;ゆず.る;reporter, différer, transmettre
+N1;護;ゴ;まも.る;protection, défense, protéger
+N1;豆;トウ,ズ;まめ;haricot, pois
+N1;豚;トン;ぶた;porc, cochon
+N1;豪;ゴウ;えら.い;intimidant, accablant, écrasant, puissant
+N1;財;コウ,ク;みつ.ぐ;tribut, contribution, financer
+N1;貫;カン;つらぬ .く,ぬ.く;percer, pénétrer, unité de mesure (kan = 3750g)
+N1;貴;キ;たっと .い;précieux, de grande valeur, estimé
+N1;賀;ガ -;;félicitations, joie
+N1;賄;ワイ;まかな .う;corruption, pot -de-vin, se charger des frais, payer
+N1;賊;ゾク -;;bandit, voleur, rebelle, traître
+N1;賓;ヒン -;;invité d'honneur, hôte
+N1;賜;シ;たま.う,たも.う;accorder, gratifier, offrir, faveur
+N1;賠;バイ -;;dédommagement, indemnité, compensation
+N1;賦;フ,ブ -;;impôt, taxe, versement, poème, poésie
+N1;賭;ト;か.ける,かけ;parier, miser sur, jouer
+N1;購;コウ -;;adhésion, abonnement, souscrire, acheter
+N1;赦;シャ -;;pardon, clémence
+N1;赴;フ;おもむ .く;aller, se diriger vers, se rendre à
+N1;趣;シュ;おもむき;essentiel, tendance, teneur, apparence
+N1;距;キョ -;;longue distance, éperon (d'un animal), fanon (d'un cheval)
+N1;跳;チョウ;は.ねる,と.ぶ;sauter, bondir, voler
+N1;践;セン;ふ.む;marcher sur, piétiner, pratique, mener à bien
+N1;踏;トウ;ふ.む;marcher sur, piétiner, évaluer, estimer
+N1;躍;ヤク;おど.る;danser, sautiller, bondir
+N1;軌;キ -;;orbite, rail, façon de faire
+N1;軸;ジク -;;axe, pivot, tige
+N1;載;サイ;の.せる;charger, embarquer, placer, 10^44
+N1;輝;キ;かがや .く;étinceler, scintiller, briller
+N1;輩;ハイ;やから,ともがら;camarade, ami, compagnon
+N1;轄;カツ;くさび;contrôle, cale
+N1;辱;ジョク;はずかし .める;embarrasser, humilier, faire honte
+N1;迅;ジン -;;prompt, rapide
+N1;迫;ハク;せま.る;harceler, réclamer, exiger, forcer
+N1;迭;テツ -;;transfert, alternance
+N1;透;トウ;す.く,とう.す;être transparent, être espacé
+N1;逐;チク -;;poursuivre, chasser, atteindre, un par un
+N1;逓;テイ -;;relais, progressif, graduellement
+N1;逝;セイ;ゆ.く,い.く;défunt, décéder, mourir
+N1;逮;タイ -;;arrêter, appréhender
+N1;逸;イツ;そ.れる,はぐ.れる;dévier, s'évader, échapper à
+N1;遂;スイ;と.げる,つい.に;consommer, atteindre, accomplir, finalement
+N1;遇;グウ;あ.う;rencontrer, traiter, divertir, recevoir
+N1;遍;ヘン;あまね .く;partout, général, nombre de fois
+N1;遣;ケン;つか.う,や.る;expédier, envoyer, faire, donner
+N1;遭;ソウ;あ.う;rencontrer, croiser, association, parti
+N1;遮;シャ;さえぎ .る;intercepter, interrompre, entraver, bloquer
+N1;遵;ジュン -;;se conformer à, suivre, obéir
+N1;遷;セン;うつ.る;transition, mouvement, bouger, déplacer
+N1;遺;イ,ユイ;のこ.す;léguer, laisser derrière soi
+N1;避;ヒ;さ.ける,よ.ける;éviter, se dérober, fuir
+N1;還;カン;かえ.る;renvoyer, retourner, retour
+N1;那;ナ -;;que, quoi ?
+N1;邦;ホウ;くに;pays, pays natal, Japon
+N1;邪;ジャ;よこし .ま;méchant, pernicieux, sournois, mauvais
+N1;邸;テイ;やしき;résidence, demeure
+N1;郎;ロウ,ロ -;;fils, compteur pour les fils
+N1;郡;グン;こうり;arrondissement, district
+N1;郭;カク;くるわ;enceinte, fortification, quartier chaud
+N1;郷;キョウ,ゴウ;さと;village natal, lieu de naissance
+N1;酌;シャク;く.む;servir à boire
+N1;酔;スイ;よ.う;ivre, envenimé, enivré
+N1;酢;サク;す;vinaigre, aigre, acide
+N1;酪;ラク -;;produits laitiers
+N1;酬;シュウ,シュ,トウ;むく.いる;rembourser, récompenser
+N1;酵;コウ -;;fermentation
+N1;酷;コク;ひど.い;cruel, atroce, sévère
+N1;酸;サン;す.い;acide, aigre, amer
+N1;醜;シュウ;みにく .い,しこ;laid, moche, affreux
+N1;醸;ジョウ;かも.す;brasser, occasionner
+N1;采;サイ -;;dé, apparence, bâton de commandement
+N1;釈;シャク,セキ;とく,す.てる,ゆる.す;explication, justification
+N1;里;リ;さと;village natal, unité de mesure (ri=3965 m)
+N1;釣;チョウ;つ.る;pêche à la ligne, capturer, monnaie, rendre la monnaie
+N1;鈴;レイ,リン;すず;clochette, cloche, carillon
+N1;鉛;エン;なまり;plomb
+N1;鉢;ハチ -;;bol, pot, saladier
+N1;銃;ジュウ;つつ;arme, fusil
+N1;銑;セン;ずく;fonte
+N1;銘;メイ -;;inscription gravée, signature (d'un artisan)
+N1;銭;セン;ぜに,すき;sen (un centième de yen), monnaie
+N1;鋼;コウ;はがね;acier
+N1;錘;スイ;つむ,おもり;poids, leste, plomb (de pêche)
+N1;錠;ジョウ -;;serrure, chaînes, cadenas
+N1;錯;サク,シャク -;;confus, mélangé, embrouillé
+N1;鍛;タン;きた.える;discipliner, endurcir, entraîner
+N1;鎖;サ;くさり,とざ.す;chaîne fer, lien
+N1;鎮;チン;しず.める;calmer, tranquiliser
+N1;鏡;キョウ,ケイ;かがみ;miroir
+N1;鐘;ショウ;かね;cloche, carillon, gong
+N1;鑑;カン;かんが .みる,かがみ;être mis en garde, échantillon
+N1;閑;カン -;;loisirs
+N1;閣;カク -;;édifice officiel, palais
+N1;閥;バツ -;;clan, faction, lignée
+N1;閲;エツ;けみ.する;passer en revue, inspection
+N1;闘;トウ;たたか .う,あらそ .う;combattre, lutter, guerre, conflit
+N1;阻;ソ;はば.む;dissuader de faire, empêcher, faire obstacle
+N1;附;フ;つ.ける;se coller à, être attaché à, annexe
+N1;陛;ヘイ -;;marches du trône, son altesse
+N1;陣;ジン -;;bataille, ordre de bataille, rang
+N1;陥;カン;おちい .る,おとしい .れ る;s'écrouler, s'affaiser, capituler, tomber (château)
+N1;陪;バイ -;;suivre, accompagner, servir
+N1;陰;イン;かげ,かげ.る;ombre, yin, secret
+N1;陳;チン;ひ.ねる;exposer, indiquer, raconter, expliquer
+N1;陵;リョウ;みささぎ;mausolée impérial, tombe de l'Empereur
+N1;陶;トウ -;;porcelaine, poterie
+N1;隆;リュウ -;;prospérité, abondance, florissant
+N1;隊;タイ -;;groupe, régiment, compagnie
+N1;随;ズイ;したが .う;se conformer à, obéir, suivre, tout
+N1;隔;カク;へだ.てる;isoler, séparer, distance
+N1;障;ショウ;さわ.る;faire obstacle, gêner
+N1;隠;イン,オン;かく.す,かく.れる;dissimuler, coucher, couvrir
+N1;隣;リン;とな.る,となり;proche, voisin, être à côté de
+N1;隷;レイ -;;esclave, serviteur
+N1;雄;ユウ;お,おす,おん;mâle, masculin, supériorité, excellence, héros
+N1;雅;ガ;みや.び;élégant, gracieux, raffiné
+N1;雌;シ;め,めす;femelle
+N1;離;リ;はな.れる;être séparé de, quitter, se détacher de
+N1;雷;ライ;かみなり,いかずち;tonnerre, foudre
+N1;需;ジュ -;;demande, sollicitation, requête
+N1;霊;レイ,リョウ;たま;esprit, âme
+N1;霜;ソウ;しも;gel, givre
+N1;霧;ム;きり;brume, brouillard
+N1;露;ロ,ロウ;つゆ;rosée, larme, se manifester, révéler, Russie
+N1;韻;イン -;;rime, phonème
+N1;響;キョウ;ひび.く;résonner, sonner, vibrer
+N1;項;コウ;うなじ;paragraphe, clause, item
+N1;須;ス,シュ;すべから .く;essentiel, nécessaire, requis
+N1;頑;ガン;かたく;tenace, têtu, obstination, insister
+N1;頒;ハン -;;distribution, répartition
+N1;頻;ヒン;しき.りに;à plusieurs reprises, récurrent, fréquent
+N1;顕;ケン;あらわ .れる;apparaître
+N1;顧;コ;かえり .みる;reconsidérer, revoir, se retourner, se pencher sur
+N1;飢;キ;う.える;faim, famine
+N1;飼;シ;か.う;domestiquer, élever
+N1;飽;ホウ;あ.きる;se lasser de, être fatigué de, être rassasié
+N1;飾;ショク;かざ.る;décorer, embellir
+N1;養;ヨウ,リョウ;やしな .う;élever, cultiver, nourrir
+N1;餓;ガ;う.える;faim, avoir faim, famine
+N1;駄;ダ -;;fardeau, cheval de bât (utilisé pour le transport)
+N1;駆;ク;か.ける;courir, galoper, pousser à
+N1;駒;ク;こま;cheval, poulain, poney
+N1;騎;キ -;;cavalier, monter à cheval
+N1;騒;ソウ;さわ.ぐ;faire du bruit, être excité, clameur
+N1;騰;トウ -;;inflation augmentation
+N1;驚;キョウ;おどろ .く;étonné, surpris, être étonné, stupéfié
+N1;髄;ズイ -;;moelle, essentiel, quintessence
+N1;鬼;キ;おに;démon, monstre
+N1;魂;コン;たましい,たま;âme, esprit
+N1;魅;ミ -;;charme, fascination, envoûtement
+N1;魔;マ -;;sorcière, démon, mauvais esprit
+N1;鮮;セン;あざ.やか;frais, clair, éclatant, Corée
+N1;鯨;ゲイ;くじら;baleine
+N1;鶏;ケイ;にわとり,とり;poulet, poule
+N1;鶴;カク;つる;grue, cigogne
+N1;鹿;ロク;しか,か;cerf
+N1;麗;レイ;うるわ .しい,うら.らか;charmant, splendide, beau, propre
+N1;麻;マ,マア;あさ;chanvre, lin
+N1;黙;モク;だま.る;se taire, être silencieux, laisser tel quel
+N1;鼓;コ;つづみ;tambour, battement, exhorter
