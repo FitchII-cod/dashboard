@@ -13,22 +13,22 @@
     }
     /* 春 */
     .theme-spring{
-      --bg:#0f1410; --card:#151c16; --text:#eef6ee; --muted:#a7c8ac; --accent:#7bd389;
+      --bg:#0f1410; --card:#151c16; --text:#eef6ee; --muted:#a7c8ac; --accent:#f59ac2;
       --ok:#9ae6b4; --warn:#f7d58a; --danger:#f7a5a5; --border:#29422d;
     }
     /* 夏 */
     .theme-summer{
-      --bg:#0e1218; --card:#111827; --text:#eaf2ff; --muted:#a3b6d6; --accent:#79b7ff;
+      --bg:#0e1218; --card:#111827; --text:#eaf2ff; --muted:#a3b6d6; --accent:#4db2ff;
       --ok:#8fe6d2; --warn:#ffe08a; --danger:#ff9aa2; --border:#22334a;
     }
     /* 秋 */
     .theme-autumn{
-      --bg:#12100e; --card:#1a1713; --text:#f5efe6; --muted:#c7b9a3; --accent:#e6a15e;
+      --bg:#12100e; --card:#1a1713; --text:#f5efe6; --muted:#c7b9a3; --accent:#e67e22;
       --ok:#bde0b6; --warn:#f4c58a; --danger:#f2a8a8; --border:#3b3025;
     }
     /* 冬 */
     .theme-winter{
-      --bg:#0f1115; --card:#171a21; --text:#e9eef5; --muted:#9fb0c3; --accent:#76baff;
+      --bg:#0f1115; --card:#171a21; --text:#e9eef5; --muted:#9fb0c3; --accent:#9cc2f7;
       --ok:#9ae6b4; --warn:#d8cc8a; --danger:#e8a5a5; --border:#263142;
     }
 
@@ -89,7 +89,7 @@
 <body>
   <!-- ===== HEADER : 日付（令和＋曜日）/ 季節配色 ===== -->
   <div class="card">
-    <h1 class="title">🗓 今日（きょう）<span class="pill" id="greg"></span></h1>
+    <h1 class="title">🗓 今日<span class="pill" id="greg"></span></h1>
     <div class="row big jp">
       <div id="dateJP" class="mono"></div>
       <div class="pill" id="eraJP"></div>
@@ -108,7 +108,7 @@
   <div class="grid">
     <!-- ===== 天気（文章） ===== -->
     <section class="card">
-      <h2 class="title">⛅ 天気（てんき）</h2>
+      <h2 class="title">⛅ 天気</h2>
       <div class="list jp">
         <div id="wxSummary" class="big">（読み込み中）</div>
         <div id="wxDetail" class="">—</div>
@@ -125,7 +125,7 @@
 
     <!-- ===== 誕生日（今日／7日以内） ===== -->
     <section class="card">
-      <h2 class="title">🎂 誕生日（たんじょうび）</h2>
+      <h2 class="title">🎂 誕生日</h2>
 
       <div id="bdayTodayWrap" style="display:none;">
         <div class="row" style="margin-bottom:8px;">
@@ -159,9 +159,7 @@
     <div class="jp" id="kanjiVocab">例語：—</div>
     <div class="jp" id="kanjiSentence">—</div>
     <div class="row" style="margin-top:8px;">
-      <button id="kanjiFuriToggle">ふりがな ON/OFF</button>
-      <button id="kanjiDone">覚えた ✔︎</button>
-      <button id="kanjiQuiz">テスト ▶︎</button>
+      <button id="kanjiDone">覚えた → 次の漢字</button>
     </div>
   </section>
 
@@ -173,8 +171,6 @@
     <div class="jp" id="newsBody"><p>—</p></div>
     <div class="row" style="margin-top:8px;">
       <button id="newsOpen">全文</button>
-      <button id="newsTTS">音声 ▶︎</button>
-      <button id="newsFuriToggle">ふりがな ON/OFF</button>
     </div>
   </section>
 
@@ -238,29 +234,36 @@
     async function loadWeather(){
       try{
         const r = await fetch('/api/weather/today');
-        if(!r.ok) throw new Error();
-        const wx = await r.json();
-        document.getElementById("wxCity").textContent = `地域：${wx.city}`;
-        document.getElementById("wxTemp").textContent = `最高${wx.tmax}℃ / 最低${wx.tmin}℃`;
-        document.getElementById("wxRain").textContent = `降水確率：${wx.rainProb}%`;
-        document.getElementById("wxWind").textContent = `風：${wx.windMs}m/s（${wx.windDir}）`;
-        document.getElementById("wxSummary").textContent = `今日の${wx.city}の天気は、${wx.cond}です。`;
-        document.getElementById("wxDetail").textContent  = `最高気温は${wx.tmax}℃、最低気温は${wx.tmin}℃です。降水確率は${wx.rainProb}%です。風は${wx.windMs}m/sで${wx.windDir}から吹きます。`;
-        let hint = `昨日より${Math.abs(wx.deltaFromYesterday)}℃${wx.deltaFromYesterday>=0 ? "高い" : "低い"}です。`;
-        if(wx.rainProb>=60) hint += " 傘が要ります。";
-        if(wx.tmax>=30) hint += " 暑いので、水分補給を。";
-        if(wx.tmin<=5)  hint += " 寒いので、上着が必要です。";
-        document.getElementById("wxHints").textContent = hint;
-      }catch{
-        // Démo locale
-        const demo = {city:"ナント",cond:"晴れ時々くもり",tmax:26,tmin:17,rainProb:30,windMs:3,windDir:"北",deltaFromYesterday:2};
-        document.getElementById("wxCity").textContent = `地域：${demo.city}`;
-        document.getElementById("wxTemp").textContent = `最高${demo.tmax}℃ / 最低${demo.tmin}℃`;
-        document.getElementById("wxRain").textContent = `降水確率：${demo.rainProb}%`;
-        document.getElementById("wxWind").textContent = `風：${demo.windMs}m/s（${demo.windDir}）`;
-        document.getElementById("wxSummary").textContent = `今日の${demo.city}の天気は、${demo.cond}です。`;
-        document.getElementById("wxDetail").textContent  = `最高気温は${demo.tmax}℃、最低気温は${demo.tmin}℃です。降水確率は${demo.rainProb}%です。風は${demo.windMs}m/sで${demo.windDir}から吹きます。`;
-        document.getElementById("wxHints").textContent   = `昨日より${Math.abs(demo.deltaFromYesterday)}℃高いです。`;
+        if(!r.ok) throw new Error(r.status);
+        const w = await r.json();
+
+        document.getElementById("wxCity").textContent    = `地域：${w.city || "—"}`;
+        document.getElementById("wxSummary").textContent = w.cond || "—";
+        document.getElementById("wxTemp").textContent    = `最高${w.tmax ?? "—"}℃ / 最低${w.tmin ?? "—"}℃`;
+        document.getElementById("wxRain").textContent    = `降水確率：${w.rainProb ?? "—"}%`;
+        document.getElementById("wxWind").textContent    = `風：${w.windMs ?? "—"}m/s（${w.windDir || "—"}）`;
+
+        // détail horaire (optionnel) → rempli avec info générée si disponible
+        document.getElementById("wxDetail").textContent  = w.detail || "—";
+
+        // hints : phrase naturelle + lever/coucher
+        let hint = w.hint || "";
+        const ss = [];
+        if (w.sunrise) ss.push(`日の出 ${w.sunrise.slice(11,16)}`);
+        if (w.sunset)  ss.push(`日没 ${w.sunset.slice(11,16)}`);
+        if (ss.length) hint = hint ? `${hint} （${ss.join("・")}）` : `（${ss.join("・")}）`;
+
+        document.getElementById("wxHints").textContent   = (w.hint || "—") + (w.sunrise && w.sunset ? ` （日の出 ${w.sunrise.slice(11,16)}・日没 ${w.sunset.slice(11,16)}）` : "");
+
+      }catch(err){
+        console.error("weather api error", err);
+        document.getElementById("wxSummary").textContent = "—";
+        document.getElementById("wxDetail").textContent  = "—";
+        document.getElementById("wxHints").textContent   = "—";
+        document.getElementById("wxCity").textContent    = "地域：—";
+        document.getElementById("wxTemp").textContent    = "最高—℃ / 最低—℃";
+        document.getElementById("wxRain").textContent    = "降水確率：—%";
+        document.getElementById("wxWind").textContent    = "風：—m/s（—）";
       }
     }
 
@@ -312,25 +315,6 @@
       empty.style.display = ((!data.today || !data.today.length) && (!data.upcoming || !data.upcoming.length)) ? "block":"none";
     }
 
-    async function loadBirthdays(){
-      try{
-        const r = await fetch('/api/birthdays');
-        if(!r.ok) throw new Error();
-        renderBirthdays(await r.json());
-      }catch{
-        // Démo
-        const m = now.getMonth()+1, d = now.getDate();
-        const weekday = (now.getDay()+6)%7;
-        const demo = {
-          today:[{name:"マノン", kana:"マノン", date_str:`${m}月${d}日（${jpWeek[weekday]}）`, age:28, days_until:0}],
-          upcoming:[
-            {name:"タケシ", kana:"タケシ", date_str:`${m}月${d+2}日（${jpWeek[(weekday+2)%7]}）`, age:25, days_until:2},
-            {name:"パパ", kana:"パパ", date_str:`${m}月${d+6}日（${jpWeek[(weekday+6)%7]}）`, age:57, days_until:6},
-          ]
-        };
-        renderBirthdays(demo);
-      }
-    }
 
     document.getElementById("copyMsg").addEventListener("click", async ()=>{
       const msg = "お誕生日おめでとうございます！素敵な一年になりますように。";
@@ -339,44 +323,63 @@
     });
 
     /* ========= 今日の漢字 =========
-       /api/kanji/today 
+      /api/kanji/today ou /api/kanji/random
     */
-    function toggleRuby(selector){
-      document.querySelectorAll(`${selector} rt`).forEach(rt=>{
-        rt.style.display = (rt.style.display === 'none') ? '' : 'none';
-      });
+
+    // rendu d’un kanji dans la carte
+    function renderKanji(k){
+      // caractère
+      document.getElementById('kanjiChar').textContent = k.char || "—";
+
+      // lectures
+      const ons  = (k.on||[]).join("・") || "—";
+      const kuns = (k.kun||[]).join("・") || "—";
+      document.getElementById('kanjiRead').textContent = `音：${ons}　訓：${kuns}`;
+
+      // JLPT niveau + sens
+      document.getElementById('kanjiMeta').textContent = `${k.level || "—"}｜${k.meaning || "—"}`;
+
+      // vocabulaire (avec furigana si dispo)
+      const vocabHTML = (k.vocab||[])
+        .map(v => v && v.w ? (v.r ? `<ruby><rb>${v.w}</rb><rt>${v.r}</rt></ruby>` : v.w) : "")
+        .filter(Boolean).join("・") || "—";
+      document.getElementById('kanjiVocab').innerHTML = `例語：${vocabHTML}`;
     }
-    async function loadKanji(){
+
+    // charge le kanji du jour
+    async function loadKanjiToday(){
       try{
         const r = await fetch('/api/kanji/today');
         if(!r.ok) throw new Error();
         const k = await r.json();
-
-        // Champs affichés
-        document.getElementById('kanjiChar').textContent = k.char || "—";
-        document.getElementById('kanjiRead').textContent =
-          `音：${(k.on||[]).join("・")||"—"}　訓：${(k.kun||[]).join("・")||"—"}`;
-        // Meta : on ne garde que le niveau
-        document.getElementById('kanjiMeta').textContent = k.level || "—";
-        // Vocabulaire (affiche juste les mots)
-        const vocabLine = (k.vocab||[]).map(v => v.w).filter(Boolean).join("・");
-        document.getElementById('kanjiVocab').textContent = `例語：${vocabLine || "—"}`;
-
-        // Si tu avais un bloc 'kanjiSentence', tu peux le masquer :
-        const sent = document.getElementById('kanjiSentence');
-        if(sent) sent.style.display = 'none';
-
-      }catch(e){
-        // petit fallback visuel
-        document.getElementById('kanjiChar').textContent = "一";
-        document.getElementById('kanjiRead').textContent = "音：イチ・イツ　訓：ひと・ひと.つ";
-        document.getElementById('kanjiMeta').textContent = "N5";
-        document.getElementById('kanjiVocab').textContent = "例語：一つ・一日・一人";
-        const sent = document.getElementById('kanjiSentence');
-        if(sent) sent.style.display = 'none';
+        renderKanji(k);
+      }catch(err){
+        console.error("kanji api error", err);
+        renderKanji({});
       }
     }
-    document.getElementById('kanjiDone').onclick = ()=> alert("覚えた：学習済みにしました（実装はサーバ側）");
+
+    // charge un kanji aléatoire (excluant ceux déjà vus si possible)
+    async function loadKanjiRandom(){
+      try{
+        const r = await fetch('/api/kanji/random');
+        if(!r.ok) throw new Error();
+        const k = await r.json();
+        renderKanji(k);
+      }catch(err){
+        console.error("kanji random api error", err);
+        renderKanji({});
+      }
+    }
+
+    // bouton 覚えた → 次の漢字
+    document.getElementById('kanjiDone').onclick = ()=>{
+      loadKanjiRandom();
+    };
+
+    // init au chargement
+    loadKanjiToday();
+
 
     /* ========= 今日のニュース =========
        /api/news/today -> { title, lead, html, url }
@@ -390,16 +393,15 @@
         document.getElementById('newsLead').textContent = n.lead || "";
         document.getElementById('newsBody').innerHTML = n.html || "<p>—</p>";
         document.getElementById('newsOpen').onclick = ()=> n.url && window.open(n.url,'_blank');
-      }catch{
-        document.getElementById('newsTitle').textContent = "政府、来週にも新しい支援策を発表";
-        document.getElementById('newsLead').textContent = "物価上昇への対策として…";
-        document.getElementById('newsBody').innerHTML =
-          "<p>政府は来週、<ruby><rb>物価</rb><rt>ぶっか</rt></ruby>上昇に対応するため…</p>";
+      } catch(err){
+        console.error("news api error", err);
+        document.getElementById('newsTitle').textContent = "—";
+        document.getElementById('newsLead').textContent = "";
+        document.getElementById('newsBody').innerHTML = "<p>—</p>";
         document.getElementById('newsOpen').onclick = ()=> {};
       }
     }
-    document.getElementById('newsFuriToggle').onclick = ()=> toggleRuby('#newsCard');
-    document.getElementById('newsTTS').onclick = ()=> alert("音声読み上げ（Open JTalk等をサーバ側で実装）");
+
 
     /* ========= EUR/JPY（BCE） =========
        Plan A: backend /api/fx/eurjpy -> { date, spot, history:[{date, value}] } (7-10 derniers)
@@ -496,10 +498,15 @@
     }
 
     async function loadBirthdaysWithProfile(profile){
-      const res = await fetch(`/api/birthdays?profile=${profile}`);
-      const data = await res.json();
-      // ta fonction existante:
-      renderBirthdays(data);
+      try{
+        const res = await fetch(`/api/birthdays?profile=${profile}`);
+        if(!res.ok) throw new Error(res.status);
+        const data = await res.json();
+        renderBirthdays(data);
+      }catch(err){
+        console.error("birthdays api error", err);
+        renderBirthdays({ today:[], upcoming:[] }); // affiche “今週の誕生日はありません。”
+      }
     }
 
     async function reloadAll(profile){
@@ -524,9 +531,71 @@
       });
     })();
 
+    const KANJI_LEARNED_KEY = "jp_dash_kanji_learned";
+
+    function loadLearned(){
+      try{ return new Set(JSON.parse(localStorage.getItem(KANJI_LEARNED_KEY) || "[]")); }
+      catch{ return new Set(); }
+    }
+    function saveLearned(set){
+      localStorage.setItem(KANJI_LEARNED_KEY, JSON.stringify([...set]));
+    }
+
+    // rendu du kanji (réutilise ta fonction existante si tu en as une)
+    function renderKanji(k){
+      document.getElementById('kanjiChar').textContent = k.char || "—";
+      const ons = (k.on||[]).join("・") || "—";
+      const kuns = (k.kun||[]).join("・") || "—";
+      document.getElementById('kanjiRead').textContent = `音：${ons}　訓：${kuns}`;
+      document.getElementById('kanjiMeta').textContent = `${k.level || "—"}｜${k.meaning || "—"}`;
+      // vocab en ruby
+      const vocabHTML = (k.vocab||[])
+        .map(v => v && v.w ? (v.r ? `<ruby><rb>${v.w}</rb><rt>${v.r}</rt></ruby>` : v.w) : "")
+        .filter(Boolean).join("・") || "—";
+      document.getElementById('kanjiVocab').innerHTML = `例語：${vocabHTML}`;
+    }
+
+    async function fetchRandomKanji(excludeSet){
+      const exclude = encodeURIComponent([...excludeSet].join(","));
+      const url = exclude ? `/api/kanji/random?exclude=${exclude}` : `/api/kanji/random`;
+      const r = await fetch(url);
+      if(!r.ok) throw new Error(r.status);
+      return r.json();
+    }
+
+    async function nextKanji(){
+      const learned = loadLearned();
+      // essaie 10 tirages max en excluant les appris
+      let k;
+      for(let i=0; i<10; i++){
+        k = await fetchRandomKanji(learned);
+        if(!k || !k.char) break;
+        if(!learned.has(k.char)) break; // trouvé un non-appris
+      }
+      // si tout appris, on accepte une répétition
+      if(!k || !k.char){ alert("漢字データがありません。"); return; }
+      renderKanji(k);
+    }
+
+    (function initKanjiButtons(){
+      const btnDone = document.getElementById('kanjiDone');
+      if(btnDone){
+        btnDone.onclick = async ()=>{
+          const cur = document.getElementById('kanjiChar').textContent.trim();
+          if(cur && cur !== "—"){
+            const s = loadLearned(); s.add(cur); saveLearned(s);
+          }
+          nextKanji();
+        };
+      }
+      const btnFuri = document.getElementById('kanjiFuriToggle');
+      if(btnFuri){
+        btnFuri.onclick = ()=> toggleRuby('#kanjiCard'); // ta fonction existante
+      }
+    })();
+
     /* ========= INIT ========= */
     loadWeather();
-    loadBirthdays();
     loadKanji();
     loadNews();
     loadFX();

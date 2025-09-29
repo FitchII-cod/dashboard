@@ -1,9 +1,10 @@
-import json, datetime, zoneinfo
+# backend/services/kanji_service.py
+import json, random
+from datetime import datetime
 from pathlib import Path
 from backend.config import DATA_DIR, TZ
 
-TZI = zoneinfo.ZoneInfo(TZ)
-KPATH = DATA_DIR / "kanji.json"
+KANJI_PATH = DATA_DIR / "kanji.json"
 LEVELS = {"N5","N4","N3","N2","N1"}
 
 def _as_list(data):
@@ -11,28 +12,31 @@ def _as_list(data):
 
 def _norm(x: dict) -> dict:
     return {
-        "char":   x.get("char"),
-        "on":     x.get("on") or [],
-        "kun":    x.get("kun") or [],
-        "level":  (x.get("level") or "N5").upper(),
-        "meaning":x.get("meaning") or None,   # non affiché
-        "vocab":  x.get("vocab") or []        # [{w, r}]
+        "char":    x.get("char"),
+        "on":      x.get("on") or [],
+        "kun":     x.get("kun") or [],
+        "level":   (x.get("level") or "N5").upper(),
+        "meaning": x.get("meaning") or "",
+        "vocab":   x.get("vocab") or []
     }
 
 def _load_all() -> list[dict]:
-    data = json.loads(KPATH.read_text(encoding="utf-8"))
+    data = json.loads(KANJI_PATH.read_text(encoding="utf-8"))
     items = [_norm(e) for e in _as_list(data) if isinstance(e, dict) and e.get("char")]
-    # sécurise le level
     for it in items:
         if it["level"] not in LEVELS:
             it["level"] = "N5"
     return items
 
-def kanji_of_the_day() -> dict:
+def get_kanji_today():
     items = _load_all()
     if not items:
-        # fallback minimal
         return {"char":"一","on":["イチ","イツ"],"kun":["ひと","ひと.つ"],"level":"N5","meaning":"un","vocab":[]}
-    today = datetime.datetime.now(TZI).date()
-    key = int(f"{today.year}{today.month:02}{today.day:02}")
-    return items[key % len(items)]
+    i = int(datetime.now().strftime("%Y%m%d")) % len(items)
+    return items[i]
+
+def get_random_kanji(exclude=None):
+    items = _load_all()
+    ex = set(exclude or [])
+    pool = [k for k in items if k["char"] not in ex] or items
+    return random.choice(pool)

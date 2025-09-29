@@ -1,4 +1,16 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual env
+.venv/
+
+# VSCode
+.vscode/
+
+# Data cache
+/data/cache/
+/data/news/*.json

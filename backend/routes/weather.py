@@ -1,10 +1,19 @@
+# backend/routes/weather.py
 from flask import Blueprint, jsonify
-from backend.utils.profile import get_profile
-from backend.services.weather_service import get_weather_today
+from pathlib import Path
+import json
+from backend.config import DATA_DIR
 
 bp = Blueprint("weather", __name__)
+CACHE = DATA_DIR / "cache" / "weather_today.json"
 
 @bp.get("/api/weather/today")
 def api_weather_today():
-    pid, _ = get_profile()
-    return jsonify(get_weather_today(pid))
+    if CACHE.exists():
+        return jsonify(json.loads(CACHE.read_text(encoding="utf-8")))
+    return jsonify({
+        "city":"—","cond":"—","tmax":None,"tmin":None,"tmaxApparent":None,
+        "rainProb":None,"rainHours":None,"precipMm":None,"snowMm":None,
+        "windMs":None,"windDir":"—","humidityAvg":None,
+        "sunrise":None,"sunset":None,"deltaFromYesterday":None,"hint":""
+    })

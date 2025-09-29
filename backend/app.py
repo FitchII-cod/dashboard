@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory
+from flask import Flask, jsonify, send_from_directory
 from pathlib import Path
 
 from backend.routes.birthdays import bp as birthdays_bp
@@ -19,6 +19,14 @@ def create_app():
     app.register_blueprint(fx_bp)
 
     @app.get("/")
+    def root():
+        return "Dashboard OK", 200
+
+    @app.get("/health")
+    def health():
+        return jsonify(status="ok"), 200
+
+    @app.get("/")
     def index():
         return send_from_directory(FRONT_DIR, "index.html")
 
@@ -30,4 +38,4 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(host="127.0.0.1", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)
