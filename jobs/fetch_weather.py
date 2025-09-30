@@ -71,9 +71,9 @@ def wind_strength_word(ms: float) -> str:
 def label_cloud(c:int) -> str:
     if c <= 20: return "快晴"
     if c <= 40: return "晴れ"
-    if c <= 60: return "晴れ時々くもり"
-    if c <= 80: return "くもり"
-    return "くもりがち"
+    if c <= 60: return "晴れ時々曇り"
+    if c <= 80: return "曇り"
+    return "曇りがち"
 
 def cond_from_series(clouds_morning, clouds_afternoon, rain_prob_max, precip_sum, snow_sum):
     # priorité aux précipitations/neige
@@ -132,10 +132,19 @@ def main():
     raw = fetch_open_meteo()
     daily  = raw.get("daily", {})
     hourly = raw.get("hourly", {})
+    now_local = dt.datetime.now(TZ)
+    key = now_local.replace(minute=0, second=0, microsecond=0).strftime("%Y-%m-%dT%H:00")
 
     dtime  = daily.get("time", [])
     today  = dt.datetime.now(TZ).date().isoformat()
     yday   = (dt.datetime.now(TZ).date() - dt.timedelta(days=1)).isoformat()
+
+    tcur = None
+    htime = hourly.get("time", [])
+    htemp = hourly.get("temperature_2m", [])
+    idx_map = {t:i for i,t in enumerate(htime)}
+    if key in idx_map and htemp:
+        tcur = round(htemp[idx_map[key]])
 
     try:
         i_today = dtime.index(today)
@@ -199,7 +208,7 @@ def main():
     payload = {
         "city": CITY_JA,
         "cond": cond,
-        "detail": detail,                 # <= NOUVEAU
+        "detail": detail,                
         "tmax": tmax,
         "tmin": tmin,
         "tmaxApparent": app_max,
@@ -213,7 +222,8 @@ def main():
         "sunrise": sunrise,
         "sunset": sunset,
         "deltaFromYesterday": delta,
-        "hint": hint
+        "hint": hint,
+        "tcur": tcur
     }
 
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

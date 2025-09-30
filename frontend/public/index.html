@@ -54,8 +54,8 @@
     }
     .sub{ color:var(--muted); font-size:13px }
     .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap }
-    .pill{ padding:4px 8px; border-radius:999px; font-size:12px; background:#10131a; border:1px solid var(--border); color:var(--muted) }
-    .big{ font-size:20px; line-height:1.4 }
+    .pill{ padding:12px 16px; border-radius:999px; font-size:16px; background:#10131a; border:1px solid var(--border); color:var(--muted) }
+    .big{ font-size:24px; line-height:1.4 }
     .jp{ font-feature-settings:"palt"; }
     .mono{ font-variant-numeric: tabular-nums; }
     .list{ display:flex; flex-direction:column; gap:8px; }
@@ -117,7 +117,7 @@
       <div class="spacer"></div>
       <div class="row">
         <span class="pill" id="wxCity">地域：—</span>
-        <span class="pill" id="wxTemp">最高—℃ / 最低—℃</span>
+        <span class="big pill" id="wxTemp">今 —℃ ／ 最高—℃ / 最低—℃</span>
         <span class="pill" id="wxRain">降水確率：—%</span>
         <span class="pill" id="wxWind">風：—m/s（—）</span>
       </div>
@@ -176,17 +176,15 @@
 
   <!-- ===== EUR/JPY（BCE） ===== -->
   <section class="card" id="fxCard">
-    <h2 class="title">💱 EUR/JPY（日次・BCE）</h2>
+    <h2 class="title">💱 為替</h2>
+
+    <!-- Spot -->
     <div class="row">
-      <span class="pill" id="fxDate">—</span>
-      <span class="pill" id="fxSpot">—</span>
-      <span class="pill" id="fxDelta">—</span>
+      <span class="pill big" id="fxSpot">EUR/JPY：—</span>
     </div>
-    <div class="spacer"></div>
-    <div class="spark-wrap">
-      <canvas id="fxSpark" width="120" height="36" aria-label="EURJPY sparkline"></canvas>
-      <span class="muted" id="fxNote">過去7営業日（参考）</span>
-    </div>
+
+    <!-- Pastilles % -->
+    <div class="row wrap gap-8" id="fxMiniRow" style="margin-top:8px;"></div>
   </section>
 
   <script>
@@ -239,7 +237,7 @@
 
         document.getElementById("wxCity").textContent    = `地域：${w.city || "—"}`;
         document.getElementById("wxSummary").textContent = w.cond || "—";
-        document.getElementById("wxTemp").textContent    = `最高${w.tmax ?? "—"}℃ / 最低${w.tmin ?? "—"}℃`;
+        document.getElementById("wxTemp").textContent    = `今 ${w.tcur ?? "—"}℃ ／ 最高${w.tmax ?? "—"}℃ / 最低${w.tmin ?? "—"}℃`;
         document.getElementById("wxRain").textContent    = `降水確率：${w.rainProb ?? "—"}%`;
         document.getElementById("wxWind").textContent    = `風：${w.windMs ?? "—"}m/s（${w.windDir || "—"}）`;
 
@@ -261,7 +259,7 @@
         document.getElementById("wxDetail").textContent  = "—";
         document.getElementById("wxHints").textContent   = "—";
         document.getElementById("wxCity").textContent    = "地域：—";
-        document.getElementById("wxTemp").textContent    = "最高—℃ / 最低—℃";
+        document.getElementById("wxTemp").textContent    = "今—℃ ／最高—℃ / 最低—℃";
         document.getElementById("wxRain").textContent    = "降水確率：—%";
         document.getElementById("wxWind").textContent    = "風：—m/s（—）";
       }
@@ -359,31 +357,12 @@
       }
     }
 
-    // charge un kanji aléatoire (excluant ceux déjà vus si possible)
-    async function loadKanjiRandom(){
-      try{
-        const r = await fetch('/api/kanji/random');
-        if(!r.ok) throw new Error();
-        const k = await r.json();
-        renderKanji(k);
-      }catch(err){
-        console.error("kanji random api error", err);
-        renderKanji({});
-      }
-    }
-
-    // bouton 覚えた → 次の漢字
-    document.getElementById('kanjiDone').onclick = ()=>{
-      loadKanjiRandom();
-    };
 
     // init au chargement
     loadKanjiToday();
 
 
-    /* ========= 今日のニュース =========
-       /api/news/today -> { title, lead, html, url }
-    */
+    /* ========= 今日のニュース =========  */
     async function loadNews(){
       try{
         const r = await fetch('/api/news/today');
@@ -403,88 +382,46 @@
     }
 
 
-    /* ========= EUR/JPY（BCE） =========
-       Plan A: backend /api/fx/eurjpy -> { date, spot, history:[{date, value}] } (7-10 derniers)
-       Plan B: direct ECB XML:
-         - https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
-         - https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml
-       NOTE: CORS peut bloquer en file:// → mieux via backend proxy.
-    */
-    function drawSpark(canvas, values){
-      const ctx = canvas.getContext('2d');
-      const w = canvas.width, h = canvas.height;
-      ctx.clearRect(0,0,w,h);
-      if(!values || values.length<2){ return; }
-      const min = Math.min(...values), max = Math.max(...values);
-      const padX = 4, padY = 4;
-      const nx = (i)=> padX + (w-2*padX) * (i/(values.length-1));
-      const ny = (v)=> {
-        if(max===min) return h/2;
-        return h - padY - (h-2*padY) * ((v-min)/(max-min));
-      };
-      ctx.beginPath();
-      ctx.moveTo(nx(0), ny(values[0]));
-      for(let i=1;i<values.length;i++){ ctx.lineTo(nx(i), ny(values[i])); }
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = "#8ab6ff";
-      ctx.stroke();
-    }
-
-    async function loadFX(){
-      const fxDate = document.getElementById('fxDate');
-      const fxSpot = document.getElementById('fxSpot');
-      const fxDelta = document.getElementById('fxDelta');
-      const spark = document.getElementById('fxSpark');
-
-      async function planA(){
-        const r = await fetch('/api/fx/eurjpy');
-        if(!r.ok) throw new Error();
-        return await r.json();
-      }
-      async function planB(){
-        // Parse ECB 90d XML, extract last ~7 days of JPY
-        const url = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml';
-        const res = await fetch(url);
-        if(!res.ok) throw new Error('ECB fetch failed');
-        const txt = await res.text();
-        const dom = new DOMParser().parseFromString(txt, "text/xml");
-        const cubes = [...dom.querySelectorAll("Cube[time]")];
-        const hist = [];
-        cubes.forEach(day=>{
-          const t = day.getAttribute("time");
-          const j = [...day.querySelectorAll("Cube[currency='JPY']")][0];
-          if(j){
-            const v = parseFloat(j.getAttribute("rate"));
-            hist.push({date:t, value:v});
-          }
-        });
-        hist.sort((a,b)=> a.date.localeCompare(b.date)); // oldest→newest
-        const last = hist[hist.length-1];
-        // Slice last 7 business days
-        const tail = hist.slice(-7);
-        return { date:last.date, spot:last.value, history:tail };
-      }
-
+    /* ========= EUR/JPY（BCE） =========  */
+    async function loadFxSummary(){
       try{
-        const data = await planA().catch(planB);
-        fxDate.textContent = data.date || "—";
-        fxSpot.textContent = `EUR/JPY：${(data.spot||0).toFixed(3)}`;
-        if(data.history && data.history.length>=2){
-          const vals = data.history.map(x=> x.value);
-          const d = vals[vals.length-1] - vals[vals.length-2];
-          fxDelta.textContent = `前日比：${d>=0?"+":""}${d.toFixed(3)}`;
-          fxDelta.className = "pill " + (d>0?"ok": d<0?"danger":"");
-          drawSpark(spark, vals);
-        }else{
-          fxDelta.textContent = "前日比：—";
-          drawSpark(spark, []);
+        const r = await fetch('/api/fx/eurjpy/summary');
+        if(!r.ok) throw new Error(r.status);
+        const fx = await r.json();
+
+        // Spot
+        const spot = (fx.spot != null) ? fx.spot : "—";
+        const fxSpotEl = document.getElementById("fxSpot");
+        if (fxSpotEl) fxSpotEl.textContent = `EUR/JPY：${spot}`;
+
+        // Pastilles %
+        const row = document.getElementById("fxMiniRow");
+        if(row){
+          row.innerHTML = "";
+          (fx.points || []).forEach(p=>{
+            const txt = (p.diffPct==null)
+              ? `${p.label} —`
+              : `${p.label} ${p.diffPct>=0 ? "▲" : "▼"}${Math.abs(p.diffPct).toFixed(2)}%`;
+
+            const span = document.createElement("span");
+            span.className = "pill";
+            if(p.diffPct != null){
+              span.style.background = p.diffPct>=0 ? "var(--ok)" : "var(--danger)";
+              span.style.color = "#111";
+            }
+            span.textContent = txt;
+            row.appendChild(span);
+          });
         }
       }catch(e){
-        fxDate.textContent = "—";
-        fxSpot.textContent = "EUR/JPY：—";
-        fxDelta.textContent = "前日比：—";
+        console.error("fx summary error", e);
+        const fxSpotEl = document.getElementById("fxSpot");
+        if (fxSpotEl) fxSpotEl.textContent = `EUR/JPY：—`;
+        const row = document.getElementById("fxMiniRow");
+        if(row) row.innerHTML = "";
       }
     }
+
 
     function getSavedProfile(){
       const url = new URL(window.location.href);
@@ -541,19 +478,6 @@
       localStorage.setItem(KANJI_LEARNED_KEY, JSON.stringify([...set]));
     }
 
-    // rendu du kanji (réutilise ta fonction existante si tu en as une)
-    function renderKanji(k){
-      document.getElementById('kanjiChar').textContent = k.char || "—";
-      const ons = (k.on||[]).join("・") || "—";
-      const kuns = (k.kun||[]).join("・") || "—";
-      document.getElementById('kanjiRead').textContent = `音：${ons}　訓：${kuns}`;
-      document.getElementById('kanjiMeta').textContent = `${k.level || "—"}｜${k.meaning || "—"}`;
-      // vocab en ruby
-      const vocabHTML = (k.vocab||[])
-        .map(v => v && v.w ? (v.r ? `<ruby><rb>${v.w}</rb><rt>${v.r}</rt></ruby>` : v.w) : "")
-        .filter(Boolean).join("・") || "—";
-      document.getElementById('kanjiVocab').innerHTML = `例語：${vocabHTML}`;
-    }
 
     async function fetchRandomKanji(excludeSet){
       const exclude = encodeURIComponent([...excludeSet].join(","));
@@ -596,9 +520,9 @@
 
     /* ========= INIT ========= */
     loadWeather();
-    loadKanji();
+    loadKanjiToday();   
     loadNews();
-    loadFX();
+    loadFxSummary();    
   </script>
 </body>
 </html>
