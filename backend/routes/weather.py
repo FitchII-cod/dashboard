@@ -4,10 +4,10 @@ from pathlib import Path
 import json
 from backend.config import DATA_DIR
 
-bp = Blueprint("weather", __name__)
+bp = Blueprint("weather", __name__, url_prefix="/api/weather")
 CACHE = DATA_DIR / "cache" / "weather_today.json"
 
-@bp.get("/api/weather/today")
+@bp.get("/today")
 def api_weather_today():
     if CACHE.exists():
         return jsonify(json.loads(CACHE.read_text(encoding="utf-8")))

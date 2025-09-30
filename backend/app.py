@@ -12,6 +12,7 @@ FRONT_DIR = BASE_DIR / "frontend" / "public"
 
 def create_app():
     app = Flask(__name__)
+    app.url_map.strict_slashes = False
     app.register_blueprint(birthdays_bp)
     app.register_blueprint(weather_bp)
     app.register_blueprint(kanji_bp)
